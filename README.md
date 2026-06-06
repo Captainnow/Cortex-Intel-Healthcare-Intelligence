@@ -1,6 +1,9 @@
 # Cortex Intel - Healthcare Intelligence Platform
 ## 100% FREE - No Paid APIs, No Subscriptions
 
+![Cortex Intel Dashboard](assets/dashboard.png)
+
+
 ### Overview
 Cortex Intel is a completely free healthcare analytics platform using only open data sources and free AI services.
 
