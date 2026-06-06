@@ -1,0 +1,33 @@
+{
+  "project": "Cortex Intel - Healthcare Intelligence Platform",
+  "version": "2.1.0",
+  "total_cost": "$0.00",
+  "data_sources": {
+    "fda": {
+      "records": 100,
+      "cost": "$0.00",
+      "api": "openFDA"
+    },
+    "who": {
+      "records": 120,
+      "cost": "$0.00",
+      "api": "WHO GHO"
+    },
+    "patient": {
+      "records": 6581,
+      "cost": "$0.00",
+      "source": "UCI + Kaggle"
+    }
+  },
+  "ai_providers": {
+    "llm": [
+      "Groq API (Free)",
+      "Ollama (Local)",
+      "HuggingFace (Free)"
+    ],
+    "ml": "scikit-learn (Open Source)"
+  },
+  "models_trained": 4,
+  "total_records": 6801,
+  "files_created": 25
+}

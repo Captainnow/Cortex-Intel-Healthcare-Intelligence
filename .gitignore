@@ -1,0 +1,23 @@
+# Environment Variables
+backend/.env
+.env
+.env.local
+
+# Node Dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Python Dependencies
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Database
+ahip_warehouse.db
+backend/ahip_warehouse.db
+
+# OS Files
+.DS_Store
+Thumbs.db

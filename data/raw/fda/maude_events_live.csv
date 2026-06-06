@@ -1,0 +1,501 @@
+event_id,date_received,device_name,manufacturer,event_type,report_source,report_date,source,api_endpoint,last_updated
+MDR-6801971,2022-07-23,Ophthalmic Device 181,Baxter,Death,User Facility,2022-08-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7598940,2019-07-12,Surgical Device 813,GE Healthcare,Near Miss,Voluntary,2019-08-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7273103,2020-05-12,Implantable Device 205,Medtronic,Injury,Manufacturer,2020-06-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3327577,2019-02-12,Radiology Device 430,Philips Healthcare,Injury,Manufacturer,2019-02-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7188771,2021-02-21,IVD Device 105,Medtronic,Death,Manufacturer,2021-02-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6105140,2019-07-16,Radiology Device 370,Siemens Healthineers,Near Miss,User Facility,2019-08-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3311285,2020-11-28,Implantable Device 571,Johnson & Johnson,Injury,User Facility,2020-12-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7933921,2020-08-29,General Hospital Device 784,Johnson & Johnson,Injury,Voluntary,2020-09-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5706707,2024-06-30,Dental Device 891,GE Healthcare,Injury,Manufacturer,2024-07-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2389057,2022-04-28,Dental Device 671,Boston Scientific,Injury,Voluntary,2022-05-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9298107,2019-11-04,Cardiovascular Device 317,Medtronic,Injury,User Facility,2019-12-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4152731,2023-04-27,General Hospital Device 207,Siemens Healthineers,Injury,Voluntary,2023-05-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9622269,2024-12-01,Dental Device 878,Stryker,Near Miss,Voluntary,2024-12-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2772688,2024-08-28,Orthopedic Device 324,Siemens Healthineers,Near Miss,User Facility,2024-09-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9614497,2025-12-16,Neurological Device 898,Philips Healthcare,Injury,Manufacturer,2025-12-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3754757,2023-09-29,Surgical Device 990,Becton Dickinson,Malfunction,Manufacturer,2023-10-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2848835,2020-03-14,Neurological Device 116,GE Healthcare,Injury,User Facility,2020-03-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9906779,2024-05-04,General Hospital Device 460,Stryker,Malfunction,Voluntary,2024-05-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8238926,2022-12-22,Neurological Device 254,Philips Healthcare,Near Miss,Voluntary,2023-01-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8404466,2019-08-06,Surgical Device 478,Johnson & Johnson,Malfunction,Voluntary,2019-08-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4253632,2023-09-27,Surgical Device 293,Philips Healthcare,Injury,Voluntary,2023-10-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9281506,2024-12-09,IVD Device 543,Johnson & Johnson,Malfunction,Voluntary,2024-12-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4683937,2020-03-30,Radiology Device 154,Medtronic,Death,Manufacturer,2020-04-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2695035,2024-12-19,Surgical Device 331,Becton Dickinson,Near Miss,User Facility,2025-01-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4689113,2020-02-19,Surgical Device 607,Boston Scientific,Injury,Manufacturer,2020-03-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5831713,2026-02-21,Implantable Device 394,Medtronic,Malfunction,Manufacturer,2026-03-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8998677,2025-12-23,Surgical Device 973,Boston Scientific,Injury,User Facility,2026-01-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3795846,2019-10-12,Orthopedic Device 440,GE Healthcare,Injury,Manufacturer,2019-11-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8179349,2024-04-27,Dental Device 121,Abbott,Death,Manufacturer,2024-05-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6907989,2019-02-09,General Hospital Device 697,Medtronic,Near Miss,Manufacturer,2019-02-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1757936,2020-03-24,Cardiovascular Device 680,Stryker,Injury,Voluntary,2020-04-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3459253,2020-11-16,Radiology Device 202,Stryker,Death,User Facility,2020-12-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5317440,2022-12-07,General Hospital Device 359,Siemens Healthineers,Near Miss,Manufacturer,2023-01-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6052190,2022-12-15,Dental Device 630,Becton Dickinson,Near Miss,Manufacturer,2022-12-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1347746,2024-10-28,Orthopedic Device 520,Boston Scientific,Injury,User Facility,2024-11-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5099811,2019-05-07,Implantable Device 858,Philips Healthcare,Death,Manufacturer,2019-05-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4252130,2020-01-01,Ophthalmic Device 754,Johnson & Johnson,Death,Voluntary,2020-01-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8537488,2025-02-09,IVD Device 279,Stryker,Death,User Facility,2025-02-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8001036,2025-08-10,Surgical Device 416,Boston Scientific,Malfunction,Voluntary,2025-08-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3062947,2022-11-07,Ophthalmic Device 914,GE Healthcare,Death,User Facility,2022-11-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9370606,2019-02-04,Orthopedic Device 577,Abbott,Death,Voluntary,2019-02-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6094327,2020-10-28,General Hospital Device 395,Johnson & Johnson,Death,Manufacturer,2020-11-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4646113,2019-06-17,Surgical Device 945,Becton Dickinson,Malfunction,Manufacturer,2019-07-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1085400,2022-06-06,Ophthalmic Device 460,Medtronic,Malfunction,User Facility,2022-06-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5752407,2022-12-05,IVD Device 781,Baxter,Injury,Manufacturer,2022-12-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3393173,2022-01-13,Neurological Device 542,Becton Dickinson,Malfunction,User Facility,2022-01-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8938605,2019-05-12,Dental Device 354,Philips Healthcare,Near Miss,User Facility,2019-06-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5383230,2020-02-06,Surgical Device 711,Stryker,Injury,Voluntary,2020-02-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3334991,2022-08-13,Neurological Device 356,Abbott,Near Miss,Voluntary,2022-08-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6116985,2022-05-18,Radiology Device 404,Becton Dickinson,Near Miss,Voluntary,2022-05-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8329845,2023-03-20,Radiology Device 241,Baxter,Near Miss,Voluntary,2023-03-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6998844,2024-08-25,General Hospital Device 462,Philips Healthcare,Near Miss,User Facility,2024-09-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1464274,2024-03-04,IVD Device 127,Philips Healthcare,Malfunction,Manufacturer,2024-03-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5070918,2022-05-23,Implantable Device 624,Siemens Healthineers,Injury,Voluntary,2022-06-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5921482,2025-05-05,Cardiovascular Device 873,Philips Healthcare,Injury,User Facility,2025-05-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8764626,2019-01-25,IVD Device 571,Medtronic,Malfunction,Manufacturer,2019-02-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2795982,2026-04-15,Dental Device 708,Johnson & Johnson,Death,Voluntary,2026-05-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2021141,2022-09-19,Radiology Device 858,Becton Dickinson,Malfunction,Voluntary,2022-09-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3418467,2024-10-15,IVD Device 858,GE Healthcare,Injury,Manufacturer,2024-11-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3596701,2026-03-05,Surgical Device 743,Stryker,Malfunction,User Facility,2026-03-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2924495,2021-04-02,Radiology Device 100,Abbott,Malfunction,Voluntary,2021-04-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4427478,2021-10-09,Radiology Device 585,Medtronic,Near Miss,User Facility,2021-10-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6031885,2020-05-13,Ophthalmic Device 595,Abbott,Injury,Voluntary,2020-05-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8367376,2025-11-14,Implantable Device 226,Philips Healthcare,Injury,Voluntary,2025-11-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3377099,2021-01-26,Neurological Device 274,Baxter,Injury,User Facility,2021-02-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5856148,2022-04-02,Radiology Device 702,GE Healthcare,Death,Voluntary,2022-04-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7472998,2023-05-22,Radiology Device 575,Philips Healthcare,Near Miss,Manufacturer,2023-05-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8668568,2022-03-06,Radiology Device 677,Philips Healthcare,Malfunction,Voluntary,2022-03-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8457126,2019-05-20,Cardiovascular Device 463,Abbott,Near Miss,Voluntary,2019-06-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1153009,2022-02-08,Orthopedic Device 466,Baxter,Injury,User Facility,2022-03-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7553588,2024-11-20,IVD Device 164,Abbott,Injury,User Facility,2024-12-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6692359,2025-04-25,General Hospital Device 832,Abbott,Death,Voluntary,2025-05-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2144375,2023-06-02,General Hospital Device 485,GE Healthcare,Injury,Voluntary,2023-06-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9815318,2024-09-07,Surgical Device 232,Siemens Healthineers,Death,Voluntary,2024-09-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2133636,2023-07-12,Cardiovascular Device 130,Abbott,Injury,Manufacturer,2023-08-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9379110,2020-03-11,General Hospital Device 431,Boston Scientific,Injury,Manufacturer,2020-04-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7443851,2020-12-13,Ophthalmic Device 165,Medtronic,Death,Manufacturer,2020-12-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8407618,2019-10-26,Dental Device 721,Medtronic,Injury,User Facility,2019-10-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7335562,2024-01-16,Orthopedic Device 752,Becton Dickinson,Injury,Manufacturer,2024-01-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8340281,2024-07-04,Surgical Device 330,Boston Scientific,Injury,User Facility,2024-07-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4226188,2024-12-04,Radiology Device 696,Medtronic,Malfunction,Manufacturer,2024-12-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1087850,2020-07-29,Dental Device 892,Philips Healthcare,Malfunction,User Facility,2020-08-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9860962,2026-03-15,General Hospital Device 294,Boston Scientific,Near Miss,Voluntary,2026-03-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3313134,2022-12-31,Radiology Device 549,Philips Healthcare,Near Miss,Manufacturer,2023-01-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3133934,2019-11-17,IVD Device 405,Johnson & Johnson,Malfunction,User Facility,2019-11-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6551912,2019-07-30,Cardiovascular Device 329,Stryker,Death,User Facility,2019-08-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2140059,2023-01-05,Orthopedic Device 394,Johnson & Johnson,Injury,Voluntary,2023-02-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9389396,2025-11-08,Surgical Device 508,Becton Dickinson,Malfunction,Voluntary,2025-12-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8901711,2020-03-30,Surgical Device 768,Medtronic,Malfunction,User Facility,2020-04-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4364020,2021-12-04,Dental Device 883,Medtronic,Injury,Manufacturer,2021-12-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2045698,2022-09-12,Neurological Device 605,Johnson & Johnson,Malfunction,User Facility,2022-09-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2352134,2023-09-01,IVD Device 590,Abbott,Death,Voluntary,2023-09-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1597270,2020-03-02,General Hospital Device 619,Boston Scientific,Death,User Facility,2020-03-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4821097,2022-05-27,Cardiovascular Device 156,Medtronic,Injury,Voluntary,2022-06-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1303581,2023-04-03,IVD Device 593,Medtronic,Near Miss,User Facility,2023-04-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8209482,2020-05-27,Ophthalmic Device 662,Abbott,Malfunction,User Facility,2020-05-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7169127,2025-11-26,Dental Device 298,Siemens Healthineers,Near Miss,Manufacturer,2025-12-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2543349,2021-08-08,Implantable Device 110,Boston Scientific,Near Miss,Voluntary,2021-09-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1768056,2025-01-05,Cardiovascular Device 994,Boston Scientific,Malfunction,Manufacturer,2025-01-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8357746,2020-06-03,Orthopedic Device 389,Medtronic,Death,User Facility,2020-06-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5097740,2026-05-07,Surgical Device 232,Becton Dickinson,Near Miss,User Facility,2026-05-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2288554,2020-05-16,Radiology Device 356,Baxter,Injury,User Facility,2020-06-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4695807,2023-01-02,General Hospital Device 830,Stryker,Death,Voluntary,2023-01-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5097093,2026-05-01,IVD Device 373,Siemens Healthineers,Malfunction,Manufacturer,2026-05-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9157211,2023-08-10,Surgical Device 180,Boston Scientific,Injury,Voluntary,2023-08-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4536127,2022-06-03,Radiology Device 481,Abbott,Malfunction,Manufacturer,2022-06-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8612879,2023-12-09,Radiology Device 121,GE Healthcare,Malfunction,User Facility,2023-12-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7445414,2025-08-06,Surgical Device 947,Johnson & Johnson,Malfunction,User Facility,2025-09-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7441381,2025-11-02,General Hospital Device 119,Philips Healthcare,Near Miss,User Facility,2025-11-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4451578,2021-07-08,Ophthalmic Device 288,Philips Healthcare,Malfunction,Voluntary,2021-07-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6835191,2019-05-09,Cardiovascular Device 723,Siemens Healthineers,Death,Voluntary,2019-05-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6720097,2019-04-23,Implantable Device 544,Philips Healthcare,Malfunction,Manufacturer,2019-05-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5822081,2023-05-09,IVD Device 574,Philips Healthcare,Death,Manufacturer,2023-05-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4996784,2024-03-29,Orthopedic Device 115,Stryker,Death,Manufacturer,2024-04-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5963118,2025-02-01,Dental Device 684,Philips Healthcare,Malfunction,Voluntary,2025-02-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5508832,2023-01-21,Surgical Device 901,Becton Dickinson,Malfunction,Manufacturer,2023-01-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6385308,2025-05-17,Surgical Device 967,Abbott,Near Miss,User Facility,2025-05-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1148825,2023-12-07,General Hospital Device 137,Siemens Healthineers,Near Miss,Voluntary,2024-01-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4654790,2025-03-29,Ophthalmic Device 159,Becton Dickinson,Malfunction,User Facility,2025-04-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6268490,2025-11-04,Radiology Device 551,Abbott,Death,User Facility,2025-11-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3134439,2024-07-20,Neurological Device 745,Abbott,Injury,Voluntary,2024-08-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4903596,2019-07-23,Radiology Device 770,Medtronic,Injury,Voluntary,2019-08-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6323988,2023-12-09,Cardiovascular Device 666,Boston Scientific,Malfunction,Voluntary,2023-12-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1270418,2021-11-20,Dental Device 653,Medtronic,Injury,User Facility,2021-11-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9505007,2019-11-14,General Hospital Device 215,Baxter,Malfunction,Manufacturer,2019-11-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7230376,2022-08-27,Ophthalmic Device 173,Philips Healthcare,Death,Manufacturer,2022-08-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7044611,2022-08-30,Dental Device 517,Siemens Healthineers,Near Miss,User Facility,2022-09-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3689602,2019-05-08,Dental Device 145,Stryker,Injury,Voluntary,2019-05-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4548039,2020-03-11,Dental Device 623,Baxter,Death,Manufacturer,2020-03-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1546929,2025-07-14,Orthopedic Device 490,Johnson & Johnson,Malfunction,Manufacturer,2025-08-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8014220,2024-08-24,IVD Device 850,Johnson & Johnson,Malfunction,Voluntary,2024-09-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9798778,2026-05-24,IVD Device 551,Siemens Healthineers,Death,Manufacturer,2026-06-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5916819,2025-06-14,Neurological Device 436,Boston Scientific,Death,Manufacturer,2025-06-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2936374,2022-07-13,Neurological Device 555,Philips Healthcare,Death,Manufacturer,2022-07-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9483289,2025-04-14,Radiology Device 470,GE Healthcare,Injury,User Facility,2025-05-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4854788,2023-09-12,Implantable Device 947,Abbott,Injury,User Facility,2023-10-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3317607,2025-07-23,Implantable Device 366,Stryker,Death,User Facility,2025-07-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7853539,2019-11-30,Ophthalmic Device 617,Abbott,Near Miss,Voluntary,2019-12-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4018484,2021-03-22,General Hospital Device 115,Abbott,Malfunction,User Facility,2021-03-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8882947,2025-03-21,Radiology Device 229,Medtronic,Near Miss,Manufacturer,2025-04-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2224983,2020-11-14,Orthopedic Device 627,Baxter,Near Miss,User Facility,2020-11-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7749767,2020-06-06,IVD Device 347,Stryker,Malfunction,User Facility,2020-07-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2808110,2022-10-10,Cardiovascular Device 175,Siemens Healthineers,Near Miss,User Facility,2022-10-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8309667,2024-01-17,Surgical Device 875,GE Healthcare,Injury,Voluntary,2024-01-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9545877,2025-08-11,Radiology Device 255,Medtronic,Death,Voluntary,2025-09-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7364849,2024-02-01,Dental Device 549,Abbott,Death,Manufacturer,2024-02-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9276091,2022-05-02,Dental Device 149,Becton Dickinson,Near Miss,User Facility,2022-05-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6344856,2023-04-23,Orthopedic Device 246,Medtronic,Injury,User Facility,2023-05-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6274209,2022-02-13,Radiology Device 455,Stryker,Injury,Manufacturer,2022-02-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9164392,2022-01-26,General Hospital Device 329,Abbott,Death,User Facility,2022-02-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4886854,2020-03-10,Surgical Device 244,Johnson & Johnson,Injury,Voluntary,2020-04-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3832873,2024-09-14,Cardiovascular Device 712,Medtronic,Injury,Manufacturer,2024-09-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7199861,2019-04-16,Neurological Device 388,Becton Dickinson,Near Miss,Voluntary,2019-05-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3116927,2024-11-03,General Hospital Device 402,Johnson & Johnson,Malfunction,User Facility,2024-12-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9275454,2023-11-06,Surgical Device 188,Abbott,Death,Voluntary,2023-11-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6934456,2020-04-22,Radiology Device 862,Boston Scientific,Malfunction,User Facility,2020-04-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6626024,2024-09-07,Surgical Device 564,Baxter,Malfunction,Voluntary,2024-09-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1643521,2022-07-13,Ophthalmic Device 202,Baxter,Death,Manufacturer,2022-08-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1597875,2025-04-05,Cardiovascular Device 351,Abbott,Near Miss,Manufacturer,2025-04-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5450761,2021-03-12,General Hospital Device 255,GE Healthcare,Injury,Voluntary,2021-03-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3211101,2022-03-03,Neurological Device 750,Johnson & Johnson,Injury,Manufacturer,2022-03-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9232431,2019-10-03,IVD Device 725,Boston Scientific,Injury,Manufacturer,2019-10-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7380211,2021-12-13,Implantable Device 340,Siemens Healthineers,Near Miss,Voluntary,2022-01-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6034852,2021-01-07,Neurological Device 996,Stryker,Near Miss,User Facility,2021-02-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7580192,2026-01-24,Implantable Device 465,Baxter,Near Miss,User Facility,2026-01-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2885212,2021-06-15,Surgical Device 529,GE Healthcare,Death,Manufacturer,2021-07-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2943123,2023-10-07,Orthopedic Device 575,Siemens Healthineers,Malfunction,User Facility,2023-10-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3148454,2023-06-19,General Hospital Device 960,GE Healthcare,Near Miss,Voluntary,2023-06-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5880999,2019-04-29,Surgical Device 619,Boston Scientific,Near Miss,Manufacturer,2019-05-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5389007,2022-08-16,Dental Device 521,Philips Healthcare,Near Miss,User Facility,2022-08-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1916595,2021-12-03,Surgical Device 597,Boston Scientific,Death,Voluntary,2021-12-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6175949,2019-07-06,General Hospital Device 519,Boston Scientific,Injury,Voluntary,2019-07-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2850788,2026-01-05,Implantable Device 725,Siemens Healthineers,Injury,Voluntary,2026-01-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1354296,2019-03-23,Ophthalmic Device 192,Siemens Healthineers,Death,Voluntary,2019-03-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1825694,2026-05-06,IVD Device 315,Siemens Healthineers,Injury,Manufacturer,2026-06-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7635829,2025-01-03,Neurological Device 397,Abbott,Death,User Facility,2025-01-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5172556,2021-06-02,Cardiovascular Device 136,Medtronic,Malfunction,Voluntary,2021-06-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1709427,2024-06-09,Orthopedic Device 389,Stryker,Malfunction,Manufacturer,2024-06-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1566701,2021-10-09,Surgical Device 867,Johnson & Johnson,Near Miss,Voluntary,2021-10-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5529825,2020-06-21,Radiology Device 178,Johnson & Johnson,Near Miss,Manufacturer,2020-06-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3547579,2025-01-27,Radiology Device 853,Becton Dickinson,Near Miss,Manufacturer,2025-02-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6237674,2025-10-16,Dental Device 535,Baxter,Malfunction,User Facility,2025-10-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4400182,2024-02-23,Radiology Device 370,Becton Dickinson,Near Miss,User Facility,2024-03-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2561327,2023-10-26,Neurological Device 516,Baxter,Death,User Facility,2023-11-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9499228,2024-12-24,Neurological Device 491,Medtronic,Near Miss,Voluntary,2025-01-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2817044,2023-03-07,General Hospital Device 329,Becton Dickinson,Malfunction,User Facility,2023-04-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8500846,2021-08-08,Dental Device 588,Becton Dickinson,Malfunction,Voluntary,2021-08-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3412081,2022-09-23,Radiology Device 197,Baxter,Injury,Manufacturer,2022-10-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5193784,2024-06-29,Radiology Device 244,Philips Healthcare,Near Miss,Voluntary,2024-07-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4899524,2025-05-09,Cardiovascular Device 885,GE Healthcare,Death,User Facility,2025-05-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3526849,2022-10-15,Cardiovascular Device 429,Becton Dickinson,Near Miss,Manufacturer,2022-10-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9199476,2021-05-06,IVD Device 611,Siemens Healthineers,Injury,User Facility,2021-05-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9630721,2024-06-01,IVD Device 979,Johnson & Johnson,Malfunction,User Facility,2024-06-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7302966,2019-11-14,Orthopedic Device 875,Medtronic,Injury,Voluntary,2019-12-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3788322,2020-05-12,Neurological Device 548,Johnson & Johnson,Malfunction,User Facility,2020-05-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9801144,2020-11-30,General Hospital Device 243,Baxter,Near Miss,User Facility,2020-12-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2972720,2022-04-30,Ophthalmic Device 401,Stryker,Death,Voluntary,2022-05-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3784106,2023-03-03,Orthopedic Device 397,Baxter,Injury,Voluntary,2023-03-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9713746,2023-03-01,Implantable Device 357,GE Healthcare,Near Miss,Manufacturer,2023-03-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3270615,2022-09-14,Orthopedic Device 636,GE Healthcare,Malfunction,User Facility,2022-09-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3522438,2021-01-04,General Hospital Device 168,Medtronic,Death,Voluntary,2021-01-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2574505,2021-03-27,IVD Device 569,Siemens Healthineers,Malfunction,Manufacturer,2021-04-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3624846,2024-04-03,Radiology Device 458,Baxter,Injury,User Facility,2024-04-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4231974,2019-02-27,Surgical Device 391,Philips Healthcare,Death,User Facility,2019-03-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5273985,2023-07-10,IVD Device 654,Boston Scientific,Malfunction,Voluntary,2023-07-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4631285,2020-02-26,Surgical Device 282,Stryker,Malfunction,Manufacturer,2020-03-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7424776,2024-11-09,Dental Device 689,Becton Dickinson,Death,Voluntary,2024-12-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8942448,2025-11-27,Neurological Device 272,Medtronic,Injury,Manufacturer,2025-11-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3457722,2025-11-23,Orthopedic Device 268,GE Healthcare,Malfunction,User Facility,2025-11-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3298057,2019-08-02,IVD Device 926,GE Healthcare,Near Miss,Voluntary,2019-08-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6076086,2022-09-01,IVD Device 878,Johnson & Johnson,Injury,Voluntary,2022-09-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7468117,2023-03-26,General Hospital Device 463,Stryker,Death,Voluntary,2023-03-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4588635,2025-10-15,Orthopedic Device 748,Stryker,Injury,User Facility,2025-11-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9222404,2023-12-14,Surgical Device 801,Johnson & Johnson,Near Miss,Voluntary,2023-12-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1424388,2020-12-30,Dental Device 975,GE Healthcare,Death,Voluntary,2021-01-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4204180,2021-05-25,Ophthalmic Device 483,Abbott,Malfunction,Manufacturer,2021-06-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9824859,2023-01-18,Neurological Device 105,Becton Dickinson,Death,User Facility,2023-01-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5257391,2023-02-19,IVD Device 113,Becton Dickinson,Death,Manufacturer,2023-03-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9031838,2022-01-31,Ophthalmic Device 144,Stryker,Death,Voluntary,2022-02-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1510471,2025-06-01,General Hospital Device 722,GE Healthcare,Near Miss,Manufacturer,2025-06-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2742939,2026-04-06,Cardiovascular Device 478,Medtronic,Injury,Voluntary,2026-04-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3208690,2020-12-25,Radiology Device 529,Johnson & Johnson,Malfunction,User Facility,2021-01-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6272014,2019-09-13,Radiology Device 978,Baxter,Death,Manufacturer,2019-10-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1279750,2025-11-19,Dental Device 957,Siemens Healthineers,Injury,Voluntary,2025-12-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9662755,2023-02-09,Cardiovascular Device 780,Philips Healthcare,Near Miss,Voluntary,2023-03-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2089762,2019-09-09,Neurological Device 944,Baxter,Injury,Voluntary,2019-09-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3895499,2019-12-10,General Hospital Device 145,Stryker,Injury,Voluntary,2019-12-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3901925,2023-08-04,Cardiovascular Device 418,Stryker,Death,Manufacturer,2023-08-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2444438,2024-03-24,Implantable Device 574,Johnson & Johnson,Malfunction,Manufacturer,2024-03-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4114839,2019-12-20,Dental Device 705,Medtronic,Injury,Manufacturer,2019-12-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7283563,2026-02-26,General Hospital Device 183,Boston Scientific,Death,Voluntary,2026-03-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3226920,2021-02-21,Surgical Device 154,Philips Healthcare,Death,Manufacturer,2021-03-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6293899,2020-07-29,Ophthalmic Device 331,Boston Scientific,Death,Manufacturer,2020-08-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5351239,2022-04-23,General Hospital Device 370,Johnson & Johnson,Near Miss,User Facility,2022-05-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6852886,2023-01-29,IVD Device 560,Abbott,Malfunction,Voluntary,2023-02-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4534335,2020-09-29,Ophthalmic Device 455,Stryker,Injury,User Facility,2020-10-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5512234,2024-08-25,Radiology Device 625,Boston Scientific,Death,Manufacturer,2024-09-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1527610,2021-12-04,Radiology Device 629,Abbott,Near Miss,Manufacturer,2021-12-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6418889,2025-07-31,Dental Device 677,Philips Healthcare,Malfunction,User Facility,2025-08-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7021076,2020-03-04,Cardiovascular Device 262,Philips Healthcare,Near Miss,User Facility,2020-03-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2681206,2026-04-07,Orthopedic Device 466,Stryker,Injury,User Facility,2026-04-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1364903,2021-02-01,General Hospital Device 928,Becton Dickinson,Near Miss,Voluntary,2021-02-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7699704,2023-11-17,General Hospital Device 954,Boston Scientific,Death,Voluntary,2023-11-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6668656,2025-09-27,General Hospital Device 794,Philips Healthcare,Death,Manufacturer,2025-10-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9505390,2021-08-17,Radiology Device 531,Philips Healthcare,Death,Voluntary,2021-08-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1479076,2025-08-26,Orthopedic Device 624,Abbott,Death,Voluntary,2025-09-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4329642,2024-11-16,Implantable Device 869,Abbott,Injury,Voluntary,2024-11-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2516637,2019-08-09,Surgical Device 911,Abbott,Death,User Facility,2019-08-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8727379,2020-11-08,Cardiovascular Device 774,Abbott,Injury,Manufacturer,2020-11-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2348473,2022-06-13,Orthopedic Device 341,Boston Scientific,Near Miss,Manufacturer,2022-07-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3586005,2021-09-29,IVD Device 965,Siemens Healthineers,Malfunction,User Facility,2021-10-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2676269,2022-11-12,General Hospital Device 663,Philips Healthcare,Injury,User Facility,2022-12-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8775970,2023-03-22,Neurological Device 881,Johnson & Johnson,Near Miss,Manufacturer,2023-04-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7708932,2020-06-30,Dental Device 389,Philips Healthcare,Near Miss,Voluntary,2020-07-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9192471,2022-11-21,Implantable Device 127,Boston Scientific,Injury,Manufacturer,2022-12-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6701752,2023-01-23,IVD Device 942,Medtronic,Near Miss,Manufacturer,2023-02-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3316596,2021-07-31,General Hospital Device 292,Medtronic,Injury,User Facility,2021-08-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6697318,2020-01-16,Ophthalmic Device 769,Abbott,Near Miss,Manufacturer,2020-01-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7489687,2022-06-28,General Hospital Device 135,Stryker,Near Miss,Manufacturer,2022-07-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9679668,2023-06-20,Radiology Device 576,Johnson & Johnson,Death,Voluntary,2023-07-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7785940,2020-02-20,Cardiovascular Device 264,Siemens Healthineers,Injury,Voluntary,2020-03-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8628467,2023-04-22,Cardiovascular Device 597,Philips Healthcare,Near Miss,Manufacturer,2023-05-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5339410,2023-10-07,Radiology Device 718,GE Healthcare,Death,User Facility,2023-10-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9976215,2022-10-04,Dental Device 214,Abbott,Near Miss,Voluntary,2022-10-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2342330,2023-04-20,Orthopedic Device 107,Siemens Healthineers,Death,Manufacturer,2023-05-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8633454,2025-11-22,Ophthalmic Device 149,GE Healthcare,Death,Manufacturer,2025-11-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8721725,2024-06-28,Dental Device 151,Becton Dickinson,Death,User Facility,2024-07-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5968479,2022-10-14,Cardiovascular Device 655,Stryker,Injury,User Facility,2022-10-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1293919,2023-09-05,General Hospital Device 432,Stryker,Malfunction,Voluntary,2023-09-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1614253,2023-01-03,IVD Device 856,Philips Healthcare,Injury,Manufacturer,2023-01-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2586664,2024-12-31,Orthopedic Device 844,Abbott,Near Miss,User Facility,2025-01-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6794620,2022-01-30,General Hospital Device 805,Becton Dickinson,Injury,Voluntary,2022-02-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8691004,2024-11-14,Cardiovascular Device 178,Siemens Healthineers,Death,Manufacturer,2024-11-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2696557,2025-10-31,Ophthalmic Device 624,Johnson & Johnson,Death,Voluntary,2025-11-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8088875,2022-05-21,Ophthalmic Device 122,Abbott,Death,Voluntary,2022-06-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8271837,2019-11-21,Radiology Device 912,Boston Scientific,Death,User Facility,2019-12-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5089486,2024-10-06,Cardiovascular Device 483,Becton Dickinson,Near Miss,Manufacturer,2024-10-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5610156,2023-11-25,Orthopedic Device 383,Baxter,Malfunction,Voluntary,2023-12-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5780038,2021-01-12,Surgical Device 105,Philips Healthcare,Injury,Manufacturer,2021-02-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3177128,2023-08-25,Surgical Device 373,GE Healthcare,Death,Manufacturer,2023-09-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1303213,2021-07-09,Dental Device 326,Johnson & Johnson,Death,Voluntary,2021-08-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8728326,2025-10-31,Implantable Device 530,Becton Dickinson,Death,Voluntary,2025-11-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1210843,2024-05-02,Dental Device 448,Siemens Healthineers,Death,User Facility,2024-05-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9371405,2024-03-07,Neurological Device 645,Abbott,Near Miss,User Facility,2024-03-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2318832,2019-05-13,General Hospital Device 674,Siemens Healthineers,Malfunction,Manufacturer,2019-06-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7194004,2024-12-09,Surgical Device 398,Siemens Healthineers,Near Miss,Voluntary,2024-12-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3615576,2019-05-02,Implantable Device 698,Abbott,Death,Voluntary,2019-05-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1392726,2023-08-29,Surgical Device 669,GE Healthcare,Injury,User Facility,2023-09-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3209515,2025-01-10,Ophthalmic Device 721,Johnson & Johnson,Malfunction,User Facility,2025-01-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2856109,2021-05-15,Implantable Device 396,Abbott,Injury,Voluntary,2021-05-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7853764,2025-03-03,Dental Device 869,Boston Scientific,Near Miss,Voluntary,2025-03-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7093060,2022-08-01,Radiology Device 780,Siemens Healthineers,Near Miss,Manufacturer,2022-08-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9301923,2023-07-13,General Hospital Device 393,GE Healthcare,Injury,Manufacturer,2023-07-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1055991,2022-03-27,IVD Device 949,Siemens Healthineers,Near Miss,Voluntary,2022-04-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7431603,2020-02-07,Implantable Device 768,Philips Healthcare,Near Miss,User Facility,2020-02-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1487227,2026-02-19,Implantable Device 329,Abbott,Malfunction,Voluntary,2026-03-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1383084,2023-08-02,Dental Device 724,Boston Scientific,Injury,Voluntary,2023-08-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2526163,2024-04-16,Dental Device 123,Becton Dickinson,Near Miss,Voluntary,2024-05-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3707494,2021-03-01,General Hospital Device 477,Boston Scientific,Injury,User Facility,2021-03-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6414413,2021-03-29,Orthopedic Device 400,Johnson & Johnson,Malfunction,Manufacturer,2021-04-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8703978,2024-03-03,Neurological Device 800,Becton Dickinson,Near Miss,Manufacturer,2024-03-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8741111,2020-12-25,IVD Device 756,Johnson & Johnson,Death,Manufacturer,2021-01-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2171758,2024-03-08,Cardiovascular Device 866,Medtronic,Near Miss,Voluntary,2024-03-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2180539,2023-04-28,Ophthalmic Device 366,Baxter,Malfunction,Voluntary,2023-05-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9961899,2025-10-22,Cardiovascular Device 549,GE Healthcare,Malfunction,User Facility,2025-11-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1669519,2023-06-20,Dental Device 509,Baxter,Near Miss,User Facility,2023-07-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2738505,2020-05-23,Orthopedic Device 967,Stryker,Malfunction,Voluntary,2020-05-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7927195,2023-02-10,Dental Device 245,Boston Scientific,Near Miss,Manufacturer,2023-02-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6536912,2020-02-02,Radiology Device 569,GE Healthcare,Injury,User Facility,2020-02-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8460359,2022-04-24,Dental Device 906,GE Healthcare,Death,Voluntary,2022-05-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1599695,2025-08-31,Orthopedic Device 251,Baxter,Death,Manufacturer,2025-09-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7085502,2023-02-28,Surgical Device 414,Abbott,Death,User Facility,2023-03-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5947259,2023-12-07,Orthopedic Device 861,Abbott,Injury,Voluntary,2023-12-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5316874,2023-04-23,Neurological Device 128,Boston Scientific,Death,Manufacturer,2023-05-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5352365,2019-02-19,Dental Device 838,Baxter,Near Miss,User Facility,2019-03-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6774944,2020-11-28,Orthopedic Device 701,Baxter,Death,Voluntary,2020-12-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9141073,2023-03-29,Orthopedic Device 991,Baxter,Near Miss,Manufacturer,2023-04-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1238783,2023-04-05,Radiology Device 450,Boston Scientific,Death,Manufacturer,2023-04-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5669360,2020-09-06,Implantable Device 896,Johnson & Johnson,Injury,User Facility,2020-09-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1204695,2024-02-25,IVD Device 333,Boston Scientific,Death,Voluntary,2024-02-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2658260,2023-06-21,Dental Device 619,Johnson & Johnson,Death,Voluntary,2023-07-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2332904,2025-01-11,Cardiovascular Device 557,Becton Dickinson,Injury,Manufacturer,2025-01-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5111878,2021-01-18,Neurological Device 806,GE Healthcare,Injury,Manufacturer,2021-02-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5655284,2021-12-24,Radiology Device 860,Boston Scientific,Malfunction,Manufacturer,2022-01-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2021147,2022-05-25,Neurological Device 333,Boston Scientific,Near Miss,User Facility,2022-05-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1857027,2025-01-08,Dental Device 908,Johnson & Johnson,Injury,User Facility,2025-01-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2398988,2023-12-16,General Hospital Device 302,Johnson & Johnson,Injury,Voluntary,2024-01-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1161102,2022-05-13,Implantable Device 540,Johnson & Johnson,Near Miss,Voluntary,2022-05-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8654679,2025-08-09,Cardiovascular Device 357,Philips Healthcare,Death,User Facility,2025-08-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6513654,2020-12-24,IVD Device 594,Baxter,Death,Voluntary,2021-01-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9928667,2021-12-18,Neurological Device 449,Stryker,Death,Voluntary,2022-01-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4056477,2020-04-01,General Hospital Device 106,Siemens Healthineers,Near Miss,User Facility,2020-04-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2099905,2021-01-02,Ophthalmic Device 789,Stryker,Malfunction,User Facility,2021-01-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4064453,2026-02-25,Neurological Device 897,Johnson & Johnson,Injury,Manufacturer,2026-03-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6123490,2024-08-17,Dental Device 884,Baxter,Near Miss,Manufacturer,2024-09-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4528113,2022-05-14,Implantable Device 788,Abbott,Death,Manufacturer,2022-05-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3881944,2023-06-11,Orthopedic Device 724,Abbott,Death,Voluntary,2023-06-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7994575,2026-04-30,Surgical Device 334,Stryker,Near Miss,User Facility,2026-05-12,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6137726,2020-08-16,Dental Device 844,Siemens Healthineers,Death,User Facility,2020-08-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7602542,2023-10-09,Ophthalmic Device 105,Philips Healthcare,Malfunction,User Facility,2023-10-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3347640,2026-03-30,General Hospital Device 885,Stryker,Malfunction,Voluntary,2026-04-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5293781,2021-05-04,Surgical Device 952,Siemens Healthineers,Malfunction,User Facility,2021-05-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6464089,2023-04-16,IVD Device 673,Boston Scientific,Injury,Voluntary,2023-05-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5596336,2023-12-08,Radiology Device 176,Boston Scientific,Injury,User Facility,2024-01-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8883139,2024-05-18,Cardiovascular Device 899,Philips Healthcare,Near Miss,Manufacturer,2024-05-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7291774,2025-10-21,Cardiovascular Device 203,Medtronic,Death,User Facility,2025-11-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8350507,2023-02-22,Surgical Device 213,GE Healthcare,Injury,Voluntary,2023-02-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7942032,2022-08-22,Orthopedic Device 994,Abbott,Death,Voluntary,2022-08-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2476481,2025-04-20,General Hospital Device 351,Siemens Healthineers,Death,Voluntary,2025-05-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1366612,2022-04-08,Orthopedic Device 890,Johnson & Johnson,Death,User Facility,2022-05-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4603961,2024-01-01,Orthopedic Device 428,GE Healthcare,Injury,User Facility,2024-01-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4338417,2022-09-26,Surgical Device 361,Becton Dickinson,Malfunction,Manufacturer,2022-09-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7891727,2026-03-15,Ophthalmic Device 505,GE Healthcare,Malfunction,Voluntary,2026-03-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7265860,2024-09-29,Cardiovascular Device 679,Philips Healthcare,Malfunction,Voluntary,2024-10-27,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9254549,2022-09-01,Surgical Device 688,Siemens Healthineers,Malfunction,Voluntary,2022-09-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2545911,2025-05-04,IVD Device 899,Johnson & Johnson,Injury,Voluntary,2025-06-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8859233,2019-12-26,Implantable Device 765,Boston Scientific,Malfunction,Voluntary,2020-01-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8813403,2022-02-08,General Hospital Device 856,Abbott,Death,Manufacturer,2022-02-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6701061,2026-04-07,General Hospital Device 640,Philips Healthcare,Malfunction,User Facility,2026-04-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1106601,2022-04-18,Implantable Device 948,Philips Healthcare,Malfunction,Manufacturer,2022-04-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8166381,2022-08-13,Orthopedic Device 365,Boston Scientific,Death,Voluntary,2022-08-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4361005,2026-05-01,Implantable Device 463,Becton Dickinson,Injury,Manufacturer,2026-05-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4458525,2020-08-30,Surgical Device 285,Johnson & Johnson,Malfunction,Voluntary,2020-09-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3136134,2019-06-11,IVD Device 456,Johnson & Johnson,Death,User Facility,2019-07-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4503204,2021-07-31,Neurological Device 410,Abbott,Near Miss,User Facility,2021-08-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6961695,2021-06-08,Cardiovascular Device 240,GE Healthcare,Malfunction,User Facility,2021-06-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4499464,2023-12-24,Ophthalmic Device 150,GE Healthcare,Near Miss,User Facility,2023-12-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7383812,2021-04-22,Implantable Device 934,Johnson & Johnson,Malfunction,Manufacturer,2021-05-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9665368,2025-06-26,Radiology Device 266,Boston Scientific,Malfunction,User Facility,2025-07-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7012792,2025-10-13,Dental Device 525,Boston Scientific,Injury,Manufacturer,2025-11-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7037423,2024-09-07,General Hospital Device 361,Baxter,Malfunction,User Facility,2024-09-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7375830,2019-01-30,Ophthalmic Device 509,Johnson & Johnson,Death,User Facility,2019-02-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8283809,2019-09-25,Surgical Device 334,Johnson & Johnson,Near Miss,User Facility,2019-09-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6423586,2022-01-30,Cardiovascular Device 244,Boston Scientific,Injury,Voluntary,2022-01-31,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9701033,2020-06-08,Orthopedic Device 243,GE Healthcare,Malfunction,Manufacturer,2020-06-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5917143,2021-05-09,Dental Device 732,Philips Healthcare,Injury,User Facility,2021-05-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9700658,2020-12-16,Orthopedic Device 859,Abbott,Death,Manufacturer,2021-01-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1502983,2020-10-27,General Hospital Device 308,Stryker,Near Miss,Voluntary,2020-11-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6386706,2021-12-22,Cardiovascular Device 902,Medtronic,Death,Manufacturer,2022-01-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1574162,2024-04-11,Orthopedic Device 517,Medtronic,Near Miss,Voluntary,2024-05-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3847768,2024-11-21,Orthopedic Device 202,Medtronic,Death,Manufacturer,2024-11-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2112761,2023-09-16,Radiology Device 587,GE Healthcare,Near Miss,Voluntary,2023-10-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1012106,2020-07-04,Surgical Device 587,GE Healthcare,Death,Manufacturer,2020-07-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7133460,2026-05-12,Implantable Device 784,Johnson & Johnson,Near Miss,User Facility,2026-06-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4293151,2025-05-28,Orthopedic Device 324,Baxter,Injury,Manufacturer,2025-06-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2378902,2026-05-24,Radiology Device 834,Philips Healthcare,Death,Voluntary,2026-05-28,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4795398,2021-10-20,Surgical Device 289,Stryker,Death,Voluntary,2021-11-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9722758,2025-08-16,IVD Device 691,Stryker,Injury,User Facility,2025-08-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3436404,2023-03-16,Implantable Device 854,Medtronic,Near Miss,Voluntary,2023-03-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4056346,2021-03-21,Cardiovascular Device 246,Medtronic,Injury,Manufacturer,2021-04-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1196503,2022-08-14,Implantable Device 592,GE Healthcare,Death,Manufacturer,2022-09-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7805792,2025-06-22,General Hospital Device 319,GE Healthcare,Death,Voluntary,2025-07-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5685963,2020-04-27,IVD Device 445,Siemens Healthineers,Injury,User Facility,2020-05-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8655712,2024-06-19,Radiology Device 784,Siemens Healthineers,Death,Manufacturer,2024-07-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8155726,2023-02-05,Cardiovascular Device 656,Abbott,Malfunction,Manufacturer,2023-02-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3017925,2020-03-31,IVD Device 829,Stryker,Injury,User Facility,2020-04-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8317619,2024-01-28,IVD Device 184,Baxter,Injury,User Facility,2024-02-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4269510,2024-09-23,Orthopedic Device 960,Boston Scientific,Malfunction,Manufacturer,2024-10-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9817680,2022-12-20,Implantable Device 898,Abbott,Malfunction,Voluntary,2023-01-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4865865,2025-01-18,IVD Device 270,Siemens Healthineers,Injury,Manufacturer,2025-02-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4795970,2020-11-09,Orthopedic Device 653,Becton Dickinson,Near Miss,Manufacturer,2020-11-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7725530,2019-07-20,Surgical Device 499,Baxter,Near Miss,User Facility,2019-08-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3283712,2022-08-11,Surgical Device 100,Johnson & Johnson,Death,Voluntary,2022-08-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4502324,2022-06-30,Implantable Device 708,Johnson & Johnson,Malfunction,User Facility,2022-07-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9068702,2020-08-11,Orthopedic Device 882,Boston Scientific,Near Miss,Manufacturer,2020-09-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7559885,2023-09-13,Implantable Device 298,Boston Scientific,Death,Manufacturer,2023-09-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3356197,2022-02-05,Ophthalmic Device 226,Becton Dickinson,Injury,Manufacturer,2022-02-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5621624,2020-08-06,Dental Device 111,Johnson & Johnson,Death,Voluntary,2020-08-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8903903,2026-01-18,Neurological Device 776,GE Healthcare,Death,Manufacturer,2026-02-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8623020,2025-11-03,Orthopedic Device 172,Siemens Healthineers,Death,Manufacturer,2025-11-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2893100,2021-11-12,General Hospital Device 536,Becton Dickinson,Injury,Voluntary,2021-12-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5883963,2024-06-18,Neurological Device 635,Johnson & Johnson,Malfunction,Voluntary,2024-07-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7082569,2025-09-19,Neurological Device 990,GE Healthcare,Near Miss,User Facility,2025-09-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2764796,2026-02-26,Surgical Device 962,Stryker,Death,Voluntary,2026-03-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8040480,2022-09-08,Surgical Device 465,Johnson & Johnson,Malfunction,Manufacturer,2022-10-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5072572,2024-06-11,Implantable Device 606,Boston Scientific,Near Miss,Voluntary,2024-06-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9184965,2020-03-01,IVD Device 721,Becton Dickinson,Near Miss,Voluntary,2020-03-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1706341,2023-04-17,Implantable Device 210,Becton Dickinson,Malfunction,Voluntary,2023-04-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5003283,2020-04-26,Dental Device 694,Becton Dickinson,Near Miss,User Facility,2020-05-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6826801,2019-06-13,General Hospital Device 972,GE Healthcare,Malfunction,User Facility,2019-07-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8244357,2026-01-16,Cardiovascular Device 321,Becton Dickinson,Injury,Manufacturer,2026-02-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2657659,2022-09-09,Surgical Device 522,Medtronic,Near Miss,User Facility,2022-09-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6911929,2022-11-10,Neurological Device 383,GE Healthcare,Malfunction,User Facility,2022-11-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5415321,2026-02-13,Orthopedic Device 314,Baxter,Death,Voluntary,2026-02-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3886654,2022-11-28,General Hospital Device 977,Johnson & Johnson,Death,User Facility,2022-12-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4818006,2025-01-13,Dental Device 948,Stryker,Malfunction,Voluntary,2025-01-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7812644,2026-03-04,Dental Device 736,GE Healthcare,Injury,User Facility,2026-03-11,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9144342,2021-12-20,Dental Device 445,GE Healthcare,Death,Manufacturer,2021-12-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1267216,2022-08-15,Radiology Device 294,Becton Dickinson,Death,Voluntary,2022-09-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5969473,2026-03-15,IVD Device 651,Abbott,Near Miss,Voluntary,2026-04-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4332284,2019-11-08,Radiology Device 192,Becton Dickinson,Near Miss,User Facility,2019-11-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9939366,2022-10-25,Dental Device 506,Abbott,Near Miss,Manufacturer,2022-11-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2379281,2022-04-18,Dental Device 330,GE Healthcare,Malfunction,Manufacturer,2022-05-06,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5593405,2020-09-26,Cardiovascular Device 606,Boston Scientific,Injury,Manufacturer,2020-10-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8387946,2021-07-14,Neurological Device 248,Medtronic,Death,Manufacturer,2021-07-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9107980,2025-11-12,General Hospital Device 524,Baxter,Injury,User Facility,2025-11-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7704457,2024-10-25,Implantable Device 496,Stryker,Death,User Facility,2024-11-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7115538,2023-02-25,Neurological Device 427,Baxter,Death,Manufacturer,2023-03-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6396602,2020-07-04,Neurological Device 914,Baxter,Injury,Manufacturer,2020-08-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8981554,2024-09-09,IVD Device 421,Johnson & Johnson,Injury,Voluntary,2024-09-21,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4757489,2026-03-26,General Hospital Device 375,Becton Dickinson,Malfunction,User Facility,2026-04-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9340506,2023-11-29,Implantable Device 546,Johnson & Johnson,Injury,Manufacturer,2023-12-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1965457,2024-01-11,Dental Device 588,Abbott,Malfunction,Voluntary,2024-01-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5632027,2019-09-25,Implantable Device 358,Medtronic,Near Miss,User Facility,2019-10-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7647905,2020-06-30,Neurological Device 777,GE Healthcare,Death,Voluntary,2020-07-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6545427,2022-06-01,Neurological Device 683,Baxter,Near Miss,Manufacturer,2022-06-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6275739,2025-01-19,Cardiovascular Device 724,Medtronic,Death,Voluntary,2025-01-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2067513,2019-10-18,IVD Device 523,Abbott,Injury,Manufacturer,2019-11-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4040670,2021-01-04,Cardiovascular Device 764,GE Healthcare,Malfunction,User Facility,2021-01-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7770534,2020-01-21,Implantable Device 817,Philips Healthcare,Near Miss,User Facility,2020-02-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3323803,2024-04-27,Dental Device 287,Johnson & Johnson,Death,User Facility,2024-05-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5228095,2023-10-29,General Hospital Device 192,Abbott,Death,User Facility,2023-11-05,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6892169,2021-07-17,Radiology Device 447,GE Healthcare,Malfunction,Voluntary,2021-07-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2021747,2019-03-25,IVD Device 160,Siemens Healthineers,Malfunction,Manufacturer,2019-03-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1211031,2024-12-07,Cardiovascular Device 434,Philips Healthcare,Death,Manufacturer,2025-01-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7288704,2025-05-15,Radiology Device 276,Boston Scientific,Near Miss,Manufacturer,2025-06-02,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6792299,2021-06-13,Radiology Device 993,Abbott,Death,Voluntary,2021-06-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3977821,2023-12-11,IVD Device 252,GE Healthcare,Malfunction,Voluntary,2023-12-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3018015,2025-01-10,Surgical Device 398,Johnson & Johnson,Death,Voluntary,2025-01-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9698799,2025-08-14,Orthopedic Device 202,GE Healthcare,Injury,Voluntary,2025-08-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6660577,2025-11-16,General Hospital Device 774,Baxter,Near Miss,User Facility,2025-11-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2098296,2025-03-21,Dental Device 352,Siemens Healthineers,Injury,Manufacturer,2025-04-17,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4159823,2024-07-03,Ophthalmic Device 142,Siemens Healthineers,Malfunction,User Facility,2024-07-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2657259,2025-08-18,IVD Device 193,Siemens Healthineers,Near Miss,Voluntary,2025-09-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5740596,2021-04-03,Dental Device 238,GE Healthcare,Injury,User Facility,2021-04-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7781989,2023-10-13,Ophthalmic Device 486,Johnson & Johnson,Near Miss,Manufacturer,2023-10-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6394118,2020-03-03,IVD Device 595,Becton Dickinson,Near Miss,User Facility,2020-03-19,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1924685,2022-03-22,IVD Device 951,Medtronic,Injury,Manufacturer,2022-04-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3908477,2025-08-03,Dental Device 856,Medtronic,Malfunction,Manufacturer,2025-08-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4158126,2023-04-26,Dental Device 650,Medtronic,Near Miss,Voluntary,2023-05-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3991211,2024-11-16,IVD Device 479,Medtronic,Injury,Manufacturer,2024-12-01,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4717279,2021-01-30,Dental Device 174,Boston Scientific,Near Miss,Manufacturer,2021-02-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1261602,2026-03-08,Cardiovascular Device 490,Boston Scientific,Malfunction,User Facility,2026-03-09,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6549075,2021-09-11,Orthopedic Device 499,Boston Scientific,Death,User Facility,2021-09-13,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3376818,2020-09-30,Implantable Device 352,Becton Dickinson,Death,User Facility,2020-10-22,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6196562,2025-05-25,Neurological Device 999,Stryker,Near Miss,Voluntary,2025-05-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7939725,2023-08-31,Ophthalmic Device 384,Boston Scientific,Near Miss,User Facility,2023-09-20,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7634860,2019-02-12,Cardiovascular Device 812,GE Healthcare,Injury,Voluntary,2019-03-07,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2183202,2021-07-02,Radiology Device 218,Abbott,Near Miss,Manufacturer,2021-07-08,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6492500,2025-01-08,Orthopedic Device 857,Stryker,Near Miss,User Facility,2025-01-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-5776554,2022-03-19,Implantable Device 367,Johnson & Johnson,Malfunction,User Facility,2022-04-15,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2451280,2021-04-07,IVD Device 966,GE Healthcare,Injury,Manufacturer,2021-04-24,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8867792,2019-05-27,General Hospital Device 211,Johnson & Johnson,Injury,Manufacturer,2019-06-23,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4095032,2023-05-09,Radiology Device 880,Johnson & Johnson,Injury,User Facility,2023-05-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8350241,2023-02-28,Orthopedic Device 552,Becton Dickinson,Malfunction,Voluntary,2023-03-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4170380,2024-08-24,Neurological Device 842,Siemens Healthineers,Malfunction,Voluntary,2024-08-25,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6726860,2020-09-17,Surgical Device 279,Siemens Healthineers,Near Miss,Manufacturer,2020-10-16,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1946707,2026-03-23,Ophthalmic Device 489,Abbott,Death,Voluntary,2026-03-26,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-4086389,2021-07-11,Neurological Device 443,GE Healthcare,Malfunction,User Facility,2021-07-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9867708,2021-10-03,Surgical Device 670,Abbott,Injury,Voluntary,2021-10-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-2868408,2019-08-21,Radiology Device 519,Baxter,Malfunction,Voluntary,2019-09-14,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6396496,2020-11-26,Dental Device 139,Abbott,Malfunction,Voluntary,2020-12-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7395699,2019-01-25,Cardiovascular Device 676,Medtronic,Near Miss,Voluntary,2019-01-29,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-1590477,2021-07-08,Implantable Device 658,Johnson & Johnson,Malfunction,Voluntary,2021-08-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7476923,2024-05-05,Surgical Device 802,Becton Dickinson,Near Miss,User Facility,2024-06-04,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-9230270,2021-08-31,Implantable Device 356,Siemens Healthineers,Near Miss,User Facility,2021-09-30,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-8620600,2020-09-19,IVD Device 468,Boston Scientific,Injury,User Facility,2020-10-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-7517139,2020-12-15,Surgical Device 264,Siemens Healthineers,Malfunction,User Facility,2021-01-10,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-3415646,2022-05-13,Cardiovascular Device 570,Philips Healthcare,Injury,User Facility,2022-05-18,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04
+MDR-6921373,2026-01-10,Neurological Device 515,Philips Healthcare,Near Miss,User Facility,2026-02-03,FDA MAUDE API (Real-time),https://api.fda.gov/device/event.json,2026-06-04

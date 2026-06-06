@@ -1,0 +1,54 @@
+ahip-v2/
+  README.md (1,656 bytes)
+  ahip_warehouse.db (823,296 bytes)
+  docker-compose.yml (390 bytes)
+  PROJECT_SUMMARY.json (748 bytes)
+  data/
+    processed/
+    raw/
+      fda/
+        device_recalls_live.csv (108,669 bytes)
+        enforcement_reports_live.csv (110,679 bytes)
+        maude_events_live.csv (82,998 bytes)
+      who/
+        who_health_indicators_live.csv (12,894 bytes)
+      worldbank/
+        worldbank_health_live.csv (22,827 bytes)
+      patient/
+        diabetes.csv (111,855 bytes)
+        stroke.csv (898,153 bytes)
+        chronic_kidney_disease.csv (81,974 bytes)
+        heart_disease.csv (44,852 bytes)
+  frontend/
+    package.json (551 bytes)
+    next.config.js (233 bytes)
+    Dockerfile (131 bytes)
+    tsconfig.json (526 bytes)
+    tailwind.config.js (185 bytes)
+    app/
+      page.tsx (17,112 bytes)
+      layout.tsx (523 bytes)
+      globals.css (106 bytes)
+    lib/
+    components/
+    styles/
+  reports/
+  backend/
+    main.py (9,408 bytes)
+    requirements.txt (135 bytes)
+    Dockerfile (198 bytes)
+    schemas/
+    routes/
+    services/
+    models/
+  ml/
+    models/
+      encoders.pkl (1,527 bytes)
+      ckd_model.pkl (2.2 MB)
+      heart_disease_model.pkl (2.0 MB)
+      diabetes_model.pkl (2.9 MB)
+      stroke_model.pkl (16.2 MB)
+  sql/
+  ai_engine/
+    ai_config.json (2,213 bytes)
+  docs/

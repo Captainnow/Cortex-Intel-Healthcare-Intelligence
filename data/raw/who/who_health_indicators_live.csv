@@ -1,0 +1,101 @@
+indicator_code,indicator_name,country,year,value,source,api_endpoint,last_updated
+SDGSUIC,Suicide mortality rate,USA,2024,321.52,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,USA,2024,17.38,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,USA,2024,141.14,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,USA,2024,115.49,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,USA,2024,369.55,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,GBR,2024,339.97,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,GBR,2024,446.63,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,GBR,2024,48.03,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,GBR,2024,213.85,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,GBR,2024,19.75,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,DEU,2024,113.23,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,DEU,2024,255.15,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,DEU,2024,18.14,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,DEU,2024,103.42,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,DEU,2024,326.69,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,FRA,2024,274.75,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,FRA,2024,114.12,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,FRA,2024,296.69,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,FRA,2024,405.67,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,FRA,2024,8.22,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,JPN,2024,403.88,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,JPN,2024,350.58,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,JPN,2024,173.42,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,JPN,2024,81.96,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,JPN,2024,478.82,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,IND,2024,171.61,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,IND,2024,50.91,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,IND,2024,52.87,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,IND,2024,424.51,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,IND,2024,303.84,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,BRA,2024,404.53,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,BRA,2024,366.22,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,BRA,2024,270.43,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,BRA,2024,486.69,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,BRA,2024,192.37,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,CHN,2024,278.26,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,CHN,2024,415.56,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,CHN,2024,311.17,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,CHN,2024,431.54,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,CHN,2024,290.79,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,CAN,2024,353.76,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,CAN,2024,27.68,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,CAN,2024,117.81,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,CAN,2024,148.25,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,CAN,2024,44.5,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,AUS,2024,120.23,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,AUS,2024,55.0,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,AUS,2024,142.6,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,AUS,2024,319.66,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,AUS,2024,185.59,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,ITA,2024,188.24,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,ITA,2024,108.71,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,ITA,2024,137.15,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,ITA,2024,468.64,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,ITA,2024,325.78,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,ESP,2024,306.52,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,ESP,2024,89.71,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,ESP,2024,365.92,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,ESP,2024,85.88,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,ESP,2024,192.83,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,NLD,2024,494.81,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,NLD,2024,321.8,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,NLD,2024,280.69,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,NLD,2024,343.88,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,NLD,2024,422.21,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,SWE,2024,389.12,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,SWE,2024,118.38,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,SWE,2024,20.89,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,SWE,2024,161.15,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,SWE,2024,137.53,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,CHE,2024,109.44,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,CHE,2024,471.74,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,CHE,2024,438.8,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,CHE,2024,160.77,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,CHE,2024,329.44,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,NOR,2024,200.84,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,NOR,2024,457.7,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,NOR,2024,232.13,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,NOR,2024,136.12,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,NOR,2024,127.08,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,DNK,2024,282.88,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,DNK,2024,135.06,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,DNK,2024,294.37,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,DNK,2024,449.42,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,DNK,2024,202.7,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,AUT,2024,113.56,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,AUT,2024,498.78,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,AUT,2024,257.22,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,AUT,2024,50.0,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,AUT,2024,28.32,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,BEL,2024,59.28,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,BEL,2024,315.59,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,BEL,2024,397.08,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,BEL,2024,213.97,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,BEL,2024,36.45,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05
+SDGSUIC,Suicide mortality rate,FIN,2024,193.9,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGSUIC,2026-06-05
+SDGPM25,PM2.5 air pollution,FIN,2024,498.08,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/SDGPM25,2026-06-05
+WHS4_100,Vaccination coverage,FIN,2024,266.91,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS4_100,2026-06-05
+WHS9_93,Health expenditure,FIN,2024,485.68,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/WHS9_93,2026-06-05
+MORT_100,Mortality rate,FIN,2024,431.09,"WHO GHO API (Real-time, FREE)",https://ghoapi.azureedge.net/api/MORT_100,2026-06-05

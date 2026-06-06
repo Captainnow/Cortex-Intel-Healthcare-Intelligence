@@ -1,0 +1,84 @@
+{
+  "project": "AHIP - AI Healthcare Intelligence Platform",
+  "version": "2.0.0",
+  "ai_strategy": "100% FREE - No payment required",
+  "llm_providers": {
+    "primary": {
+      "name": "Groq API",
+      "url": "https://console.groq.com/",
+      "tier": "FREE",
+      "cost": "$0.00",
+      "limits": "20 requests/minute, 1,000,000 tokens/day",
+      "models": [
+        "llama3-8b-8192",
+        "llama3-70b-8192",
+        "mixtral-8x7b-32768"
+      ],
+      "signup": "Free, no credit card required",
+      "status": "RECOMMENDED"
+    },
+    "secondary": {
+      "name": "Ollama (Local)",
+      "url": "https://ollama.com/",
+      "tier": "FREE",
+      "cost": "$0.00 (runs locally)",
+      "models": [
+        "llama3",
+        "mistral",
+        "phi3",
+        "gemma2"
+      ],
+      "requirements": "8GB+ RAM, runs offline",
+      "status": "PRIVACY-FOCUSED"
+    },
+    "tertiary": {
+      "name": "HuggingFace Inference API",
+      "url": "https://huggingface.co/inference-api",
+      "tier": "FREE",
+      "cost": "$0.00",
+      "limits": "30,000 input characters/month",
+      "models": [
+        "meta-llama/Llama-2-7b",
+        "mistralai/Mistral-7B"
+      ],
+      "status": "BACKUP"
+    }
+  },
+  "ml_engine": {
+    "framework": "scikit-learn",
+    "cost": "$0.00 (open source)",
+    "models": [
+      "RandomForest",
+      "GradientBoosting",
+      "LogisticRegression"
+    ],
+    "training": "Local, no cloud costs"
+  },
+  "data_sources": {
+    "fda": {
+      "source": "openFDA API",
+      "cost": "$0.00",
+      "url": "https://open.fda.gov/apis/",
+      "limits": "240 requests/minute, 1,000/day"
+    },
+    "who": {
+      "source": "WHO GHO API",
+      "cost": "$0.00",
+      "url": "https://ghoapi.azureedge.net/api/"
+    },
+    "worldbank": {
+      "source": "World Bank Open Data",
+      "cost": "$0.00",
+      "url": "https://data.worldbank.org/"
+    },
+    "patient_datasets": {
+      "source": "UCI ML Repository + Kaggle",
+      "cost": "$0.00",
+      "urls": [
+        "https://archive.ics.uci.edu/ml/datasets/heart+disease",
+        "https://archive.ics.uci.edu/ml/datasets/diabetes",
+        "https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset"
+      ]
+    }
+  }
+}

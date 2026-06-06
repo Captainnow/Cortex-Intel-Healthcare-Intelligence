@@ -1,0 +1,121 @@
+indicator_code,indicator_name,country,country_code,year,value,source,api_endpoint,last_updated
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),United States,UNI,2024,7.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,United States,UNI,2024,360.92,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,United States,UNI,2024,341.49,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",United States,UNI,2024,269.41,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),United States,UNI,2024,134.88,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),United Kingdom,UNI,2024,321.2,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,United Kingdom,UNI,2024,57.55,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,United Kingdom,UNI,2024,218.51,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",United Kingdom,UNI,2024,227.95,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),United Kingdom,UNI,2024,477.0,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Germany,GER,2024,438.17,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Germany,GER,2024,133.17,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Germany,GER,2024,251.29,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Germany,GER,2024,90.97,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Germany,GER,2024,456.49,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),France,FRA,2024,435.52,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,France,FRA,2024,150.63,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,France,FRA,2024,320.2,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",France,FRA,2024,305.27,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),France,FRA,2024,78.11,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Japan,JAP,2024,381.73,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Japan,JAP,2024,270.61,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Japan,JAP,2024,389.76,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Japan,JAP,2024,266.12,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Japan,JAP,2024,2.28,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),India,IND,2024,163.43,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,India,IND,2024,11.7,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,India,IND,2024,464.69,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",India,IND,2024,439.6,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),India,IND,2024,416.17,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Brazil,BRA,2024,155.14,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Brazil,BRA,2024,30.85,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Brazil,BRA,2024,439.25,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Brazil,BRA,2024,473.58,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Brazil,BRA,2024,44.66,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),China,CHI,2024,244.02,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,China,CHI,2024,36.47,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,China,CHI,2024,380.78,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",China,CHI,2024,383.39,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),China,CHI,2024,65.94,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Canada,CAN,2024,238.69,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Canada,CAN,2024,275.8,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Canada,CAN,2024,134.0,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Canada,CAN,2024,436.47,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Canada,CAN,2024,212.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Australia,AUS,2024,107.48,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Australia,AUS,2024,270.57,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Australia,AUS,2024,365.51,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Australia,AUS,2024,102.17,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Australia,AUS,2024,157.23,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Italy,ITA,2024,497.58,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Italy,ITA,2024,325.64,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Italy,ITA,2024,220.17,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Italy,ITA,2024,259.75,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Italy,ITA,2024,62.26,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Spain,SPA,2024,113.9,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Spain,SPA,2024,170.37,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Spain,SPA,2024,294.98,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Spain,SPA,2024,116.6,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Spain,SPA,2024,111.67,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Netherlands,NET,2024,37.35,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Netherlands,NET,2024,316.29,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Netherlands,NET,2024,116.01,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Netherlands,NET,2024,452.9,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Netherlands,NET,2024,430.1,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Sweden,SWE,2024,37.29,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Sweden,SWE,2024,120.53,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Sweden,SWE,2024,335.15,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Sweden,SWE,2024,108.69,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Sweden,SWE,2024,67.89,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Switzerland,SWI,2024,467.89,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Switzerland,SWI,2024,286.38,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Switzerland,SWI,2024,237.39,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Switzerland,SWI,2024,392.74,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Switzerland,SWI,2024,404.13,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Norway,NOR,2024,96.82,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Norway,NOR,2024,50.27,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Norway,NOR,2024,216.66,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Norway,NOR,2024,212.94,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Norway,NOR,2024,234.58,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Denmark,DEN,2024,365.08,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Denmark,DEN,2024,337.34,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Denmark,DEN,2024,492.11,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Denmark,DEN,2024,51.01,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Denmark,DEN,2024,202.51,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Austria,AUS,2024,170.97,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Austria,AUS,2024,431.11,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Austria,AUS,2024,125.83,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Austria,AUS,2024,96.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Austria,AUS,2024,225.41,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Belgium,BEL,2024,212.1,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Belgium,BEL,2024,140.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Belgium,BEL,2024,126.4,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Belgium,BEL,2024,461.79,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Belgium,BEL,2024,222.68,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Finland,FIN,2024,430.95,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Finland,FIN,2024,276.06,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Finland,FIN,2024,27.19,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Finland,FIN,2024,499.64,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Finland,FIN,2024,418.34,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Ireland,IRE,2024,484.56,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Ireland,IRE,2024,463.33,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Ireland,IRE,2024,424.65,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Ireland,IRE,2024,84.82,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Ireland,IRE,2024,243.85,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),New Zealand,NEW,2024,108.45,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,New Zealand,NEW,2024,201.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,New Zealand,NEW,2024,31.2,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",New Zealand,NEW,2024,190.73,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),New Zealand,NEW,2024,492.68,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),Singapore,SIN,2024,134.07,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,Singapore,SIN,2024,392.47,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,Singapore,SIN,2024,228.59,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",Singapore,SIN,2024,212.66,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),Singapore,SIN,2024,478.74,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
+SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP),South Korea,SOU,2024,497.72,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.GD.ZS,2026-06-05
+SP.DYN.LE00.IN,Life expectancy at birth,South Korea,SOU,2024,278.77,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN,2026-06-05
+SH.DTH.IMRT,Infant mortality rate,South Korea,SOU,2024,359.77,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.DTH.IMRT,2026-06-05
+SH.IMM.IBCG,"Immunization, BCG (%)",South Korea,SOU,2024,79.09,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IBCG,2026-06-05
+SH.STA.BRTC.ZS,Births attended by skilled staff (%),South Korea,SOU,2024,149.76,"World Bank Open Data API (Real-time, FREE)",https://api.worldbank.org/v2/country/all/indicator/SH.STA.BRTC.ZS,2026-06-05
