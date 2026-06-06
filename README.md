@@ -1,7 +1,14 @@
 # Cortex Intel - Healthcare Intelligence Platform
 ## 100% FREE - No Paid APIs, No Subscriptions
 
-![Cortex Intel Dashboard](assets/dashboard.png)
+<img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/33e55881-27de-4af4-b546-cee85f0be63b" />
+<img width="1910" height="944" alt="image" src="https://github.com/user-attachments/assets/7c2a0d89-1880-4ed0-bddc-09129739a340" />
+<img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/d8d73c25-9e3b-4c99-a587-aff78d19f644" />
+<img width="1912" height="939" alt="image" src="https://github.com/user-attachments/assets/c4c642d8-83ad-479c-9f84-c131b360f62a" />
+
+
+
+
 
 
 ### Overview
