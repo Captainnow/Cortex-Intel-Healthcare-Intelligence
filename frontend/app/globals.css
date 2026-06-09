@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-gray-900 antialiased;
+    @apply bg-slate-50/50 text-gray-900 antialiased;
   }
 
   /* Custom Professional Scrollbar */
@@ -16,56 +16,68 @@
     @apply bg-transparent;
   }
   ::-webkit-scrollbar-thumb {
-    @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors duration-200;
+    @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors duration-200;
   }
 }
 
-/* Professional SaaS Utilities */
-.saas-card {
-  @apply bg-white border border-gray-200 rounded-xl shadow-sm transition-shadow duration-200 hover:shadow-md;
+/* Premium Dashboard Styles */
+.premium-bg {
+  background-color: #f4f6f8;
 }
 
-.saas-header {
-  @apply bg-white border-b border-gray-200 sticky top-0 z-10;
+.premium-card {
+  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.02),0_1px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] hover:scale-[1.005];
 }
 
-.saas-sidebar {
-  @apply bg-white border-r border-gray-200 h-full;
+.premium-sidebar {
+  @apply bg-[#f4f6f8] border-r border-slate-100 h-full;
 }
 
-.saas-nav-item {
-  @apply flex items-center px-4 py-2.5 text-sm font-medium rounded-lg transition-colors;
+.premium-nav-item {
+  @apply flex items-center px-4 py-3 text-xs font-semibold rounded-xl transition-all duration-200;
 }
 
-.saas-nav-item-active {
-  @apply bg-blue-50 text-blue-700;
+.premium-nav-item-active {
+  @apply bg-slate-200/60 text-slate-800 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)];
 }
 
-.saas-nav-item-inactive {
-  @apply text-gray-600 hover:bg-gray-100 hover:text-gray-900;
+.premium-nav-item-inactive {
+  @apply text-slate-500 hover:bg-slate-100 hover:text-slate-800;
 }
 
-.saas-btn-primary {
-  @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors;
+.premium-btn-primary {
+  @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-xs font-bold rounded-xl shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200;
 }
 
-.saas-btn-secondary {
-  @apply inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors;
+.premium-btn-secondary {
+  @apply inline-flex items-center justify-center px-4 py-2 border border-slate-200 shadow-sm text-xs font-bold rounded-xl text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200;
 }
 
-.saas-input {
-  @apply block w-full border border-gray-300 rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-shadow;
+.premium-input {
+  @apply block w-full bg-white border border-slate-200 rounded-xl shadow-sm py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 sm:text-xs transition-all duration-200;
 }
 
-/* AI Copilot Specific */
-.copilot-user-msg {
-  @apply bg-blue-600 text-white rounded-2xl rounded-tr-sm p-4 text-sm max-w-[85%] shadow-sm;
+/* Active Floating Assistant */
+.assistant-panel {
+  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.12)] overflow-hidden transition-all duration-300;
 }
 
-.copilot-ai-msg {
-  @apply bg-white border border-gray-200 text-gray-800 rounded-2xl rounded-tl-sm p-4 text-sm leading-relaxed shadow-sm max-w-[85%];
+.assistant-user-msg {
+  @apply bg-slate-50 border border-slate-100 text-slate-800 rounded-2xl rounded-tr-none px-4 py-3 text-xs max-w-[85%] shadow-sm leading-relaxed;
 }
 
-.copilot-suggestion {
-  @apply bg-white border border-gray-200 hover:border-blue-500 hover:shadow-md text-gray-700 rounded-xl p-4 text-xs text-left cursor-pointer transition-all duration-200 flex flex-col justify-between h-24 w-full;
+.assistant-ai-msg {
+  @apply bg-white border border-slate-100 text-slate-800 rounded-2xl rounded-tl-none px-4 py-3 text-xs leading-relaxed shadow-sm max-w-[85%];
 }
+
+/* Float Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+

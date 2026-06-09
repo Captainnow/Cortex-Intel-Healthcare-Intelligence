@@ -28,11 +28,14 @@ encoders = {}
 def load_models():
     global ml_models, encoders
     try:
-        ml_models['heart'] = joblib.load("ml/models/heart_disease_model.pkl")
-        ml_models['diabetes'] = joblib.load("ml/models/diabetes_model.pkl")
-        ml_models['stroke'] = joblib.load("ml/models/stroke_model.pkl")
-        ml_models['ckd'] = joblib.load("ml/models/ckd_model.pkl")
-        encoders = joblib.load("ml/models/encoders.pkl")
+        # Resolve path relative to project root
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        ml_models['heart'] = joblib.load(os.path.join(base_dir, "ml", "models", "heart_disease_model.pkl"))
+        ml_models['diabetes'] = joblib.load(os.path.join(base_dir, "ml", "models", "diabetes_model.pkl"))
+        ml_models['stroke'] = joblib.load(os.path.join(base_dir, "ml", "models", "stroke_model.pkl"))
+        ml_models['ckd'] = joblib.load(os.path.join(base_dir, "ml", "models", "ckd_model.pkl"))
+        encoders = joblib.load(os.path.join(base_dir, "ml", "models", "encoders.pkl"))
+        print("ML models loaded successfully.")
     except Exception as e:
         print(f"Warning: Could not load ML models: {e}")
 
