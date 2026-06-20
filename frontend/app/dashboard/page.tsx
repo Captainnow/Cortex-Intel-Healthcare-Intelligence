@@ -6,7 +6,7 @@ import {
   FileText, Send, Loader2, Sparkles, ArrowRight, Search, Filter, Info, Terminal, 
   User, ChevronRight, CheckCircle2, Plus, Mic, Copy, ThumbsUp, ThumbsDown, Share2, 
   RotateCcw, Menu, X, Settings, TrendingUp
-} from 'lucide-react';
+, Moon, Sun } from 'lucide-react';
 import { 
   LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, AreaChart, Area,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
@@ -67,6 +67,15 @@ const Sparkline = ({ data, color }: { data: number[], color: string }) => {
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('overview');
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDarkMode]);
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [copiedIdx, setCopiedIdx] = useState<number | null>(null);
@@ -365,8 +374,8 @@ export default function Dashboard() {
           {/* Patient Risk Metrics Card */}
           <div className="premium-card p-6">
             <div className="flex flex-col space-y-1 mb-6">
-              <h3 className="text-sm font-bold text-slate-800">Patient Risk Metrics</h3>
-              <p className="text-xs text-slate-500 font-medium">
+              <h3 className="text-sm font-bold text-slate-800 dark:text-white">Patient Risk Metrics</h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
                 Overall Population Risk: <span className="text-amber-500 font-bold">14.2% (Moderate)</span>
               </p>
             </div>
@@ -398,11 +407,11 @@ export default function Dashboard() {
             <div className="flex items-center gap-12 mt-6 border-t border-slate-50 pt-4">
               <div className="space-y-0.5">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">High Risk Patients</p>
-                <p className="text-2xl font-bold text-slate-800">87</p>
+                <p className="text-2xl font-bold text-slate-800 dark:text-white">87</p>
               </div>
               <div className="space-y-0.5">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Action Required</p>
-                <p className="text-2xl font-bold text-slate-800">
+                <p className="text-2xl font-bold text-slate-800 dark:text-white">
                   12 <span className="text-xs text-rose-500 font-extrabold ml-1">(Critical)</span>
                 </p>
               </div>
@@ -411,12 +420,12 @@ export default function Dashboard() {
 
           {/* Health Data Analytics Card */}
           <div className="premium-card p-6">
-            <h3 className="text-sm font-bold text-slate-800 mb-6">Health Data Analytics</h3>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-6">Health Data Analytics</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               
               {/* Chronic Conditions Prevalence BarChart */}
               <div className="space-y-4">
-                <h4 className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Chronic Conditions Prevalence</h4>
+                <h4 className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Chronic Conditions Prevalence</h4>
                 <div className="h-44">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={prevalenceData} barSize={32} margin={{ top: 10, right: 10, left: -25, bottom: 0 }}>
@@ -436,7 +445,7 @@ export default function Dashboard() {
 
               {/* Admissions Trend AreaChart */}
               <div className="space-y-4">
-                <h4 className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Admissions Trend (Oct 2023)</h4>
+                <h4 className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Admissions Trend (Oct 2023)</h4>
                 <div className="h-44">
                   <ResponsiveContainer width="100%" height="100%">
                     <AreaChart data={admissionsTrendData} margin={{ top: 10, right: 10, left: -25, bottom: 0 }}>
@@ -472,20 +481,20 @@ export default function Dashboard() {
           
           {/* Live FDA Regulatory Alerts */}
           <div className="premium-card p-6">
-            <h3 className="text-sm font-bold text-slate-800 mb-4">Live FDA Regulatory Alerts</h3>
-            <div className="bg-slate-50 border border-slate-100 rounded-xl p-3.5 mb-4">
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">FDA Recall Alerts (Active)</span>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-4">Live FDA Regulatory Alerts</h3>
+            <div className="bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl p-3.5 mb-4">
+              <span className="text-[10px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">FDA Recall Alerts (Active)</span>
             </div>
             
             <div className="space-y-4 max-h-[300px] overflow-y-auto pr-1">
               {activeAlerts.length > 0 ? (
                 activeAlerts.map((alert, idx) => (
-                  <div key={idx} className="flex gap-3 items-start pb-3.5 border-b border-slate-100 last:border-0 last:pb-0">
+                  <div key={idx} className="flex gap-3 items-start pb-3.5 border-b border-slate-100 dark:border-white/5 last:border-0 last:pb-0">
                     <div className="px-2 py-1 bg-rose-50 border border-rose-100 rounded-lg text-[9px] font-bold text-rose-500 uppercase shrink-0">
                       {alert.date_initiated ? alert.date_initiated.split(' ')[0] : 'Alert'}
                     </div>
                     <div className="space-y-0.5">
-                      <h4 className="text-xs font-bold text-slate-800 line-clamp-1">{alert.product_description}</h4>
+                      <h4 className="text-xs font-bold text-slate-800 dark:text-white line-clamp-1">{alert.product_description}</h4>
                       <p className="text-[10px] text-slate-400 line-clamp-2 leading-relaxed">{alert.reason_for_recall}</p>
                     </div>
                   </div>
@@ -493,21 +502,21 @@ export default function Dashboard() {
               ) : (
                 /* Fallback to match mockup contents if API is not initialized or empty */
                 <>
-                  <div className="flex gap-3 items-start pb-4 border-b border-slate-100">
+                  <div className="flex gap-3 items-start pb-4 border-b border-slate-100 dark:border-white/5">
                     <div className="px-2 py-1 bg-rose-50 border border-rose-100 rounded-lg text-[9px] font-bold text-rose-500 uppercase shrink-0">
                       Oct 25
                     </div>
                     <div className="space-y-0.5">
-                      <h4 className="text-xs font-bold text-slate-800">MedTech Syringe Pump Model 300</h4>
+                      <h4 className="text-xs font-bold text-slate-800 dark:text-white">MedTech Syringe Pump Model 300</h4>
                       <p className="text-[10px] text-slate-400">Class I Recall (Defective software issue detected)</p>
                     </div>
                   </div>
-                  <div className="flex gap-3 items-start pb-4 border-b border-slate-100">
+                  <div className="flex gap-3 items-start pb-4 border-b border-slate-100 dark:border-white/5">
                     <div className="px-2 py-1 bg-rose-50 border border-rose-100 rounded-lg text-[9px] font-bold text-rose-500 uppercase shrink-0">
                       Oct 24
                     </div>
                     <div className="space-y-0.5">
-                      <h4 className="text-xs font-bold text-slate-800">Biogen Injection Lot #1234</h4>
+                      <h4 className="text-xs font-bold text-slate-800 dark:text-white">Biogen Injection Lot #1234</h4>
                       <p className="text-[10px] text-slate-400">Label Error leading to dosing mismatch risks</p>
                     </div>
                   </div>
@@ -516,7 +525,7 @@ export default function Dashboard() {
                       Oct 23
                     </div>
                     <div className="space-y-0.5">
-                      <h4 className="text-xs font-bold text-slate-800">HealthGuard Implant</h4>
+                      <h4 className="text-xs font-bold text-slate-800 dark:text-white">HealthGuard Implant</h4>
                       <p className="text-[10px] text-slate-400">Material issue triggering bio-compatibility reviews</p>
                     </div>
                   </div>
@@ -527,14 +536,14 @@ export default function Dashboard() {
 
           {/* Key Metrics Overview */}
           <div className="premium-card p-6">
-            <h3 className="text-sm font-bold text-slate-800 mb-6">Key Metrics Overview</h3>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-6">Key Metrics Overview</h3>
             <div className="space-y-5">
               
               {/* Length of Stay */}
               <div className="flex items-center justify-between">
                 <div className="space-y-0.5">
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Average Length of Stay</p>
-                  <p className="text-lg font-bold text-slate-800 flex items-center gap-1.5">
+                  <p className="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-1.5">
                     4.2 days 
                     <span className="inline-flex items-center text-[10px] text-emerald-500 font-extrabold">
                       ↗
@@ -548,7 +557,7 @@ export default function Dashboard() {
               <div className="flex items-center justify-between border-t border-slate-50 pt-4">
                 <div className="space-y-0.5">
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Readmission Rate</p>
-                  <p className="text-lg font-bold text-slate-800 flex items-center gap-1.5">
+                  <p className="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-1.5">
                     8.1% 
                     <span className="inline-flex items-center text-[10px] text-emerald-500 font-extrabold">
                       ↗
@@ -562,7 +571,7 @@ export default function Dashboard() {
               <div className="flex items-center justify-between border-t border-slate-50 pt-4">
                 <div className="space-y-0.5">
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">HCAHPS Score</p>
-                  <p className="text-lg font-bold text-slate-800 flex items-center gap-1.5">
+                  <p className="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-1.5">
                     88% 
                     <span className="inline-flex items-center text-[10px] text-emerald-500 font-extrabold">
                       ↗
@@ -592,7 +601,7 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Pie Chart */}
           <div className="premium-card p-6 lg:col-span-2">
-            <h3 className="text-sm font-bold text-slate-800 mb-4">Recall Breakdown by Medical Speciality</h3>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-4">Recall Breakdown by Medical Speciality</h3>
             <div className="h-72">
               {pieData.length > 0 ? (
                 <ResponsiveContainer width="100%" height="100%">
@@ -623,15 +632,15 @@ export default function Dashboard() {
 
           {/* Key specialities metrics */}
           <div className="premium-card p-6">
-            <h3 className="text-sm font-bold text-slate-800 mb-4">Metrics Summary</h3>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-4">Metrics Summary</h3>
             <div className="space-y-4">
               {recallSummary.slice(0, 5).map((item, idx) => (
                 <div key={idx} className="space-y-1">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="font-semibold text-slate-700">{item.product_type}</span>
-                    <span className="text-slate-500 font-mono font-bold">{item.total_recalls}</span>
+                    <span className="font-semibold text-slate-700 dark:text-slate-200">{item.product_type}</span>
+                    <span className="text-slate-500 dark:text-slate-400 font-mono font-bold">{item.total_recalls}</span>
                   </div>
-                  <div className="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                  <div className="w-full h-1.5 bg-slate-100 dark:bg-white/5 rounded-full overflow-hidden">
                     <div 
                       className="h-full bg-blue-600 rounded-full" 
                       style={{ width: `${Math.min(100, (item.total_recalls / (recallSummary[0]?.total_recalls || 1)) * 100)}%` }}
@@ -649,8 +658,8 @@ export default function Dashboard() {
 
         {/* Dynamic Recall Explorer Table */}
         <div className="premium-card p-6">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-4 mb-4">
-            <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 dark:border-white/5 pb-4 mb-4">
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white flex items-center gap-2">
               <FileText className="h-4.5 w-4.5 text-blue-600" /> Medical Recall Inquest Explorer
             </h3>
             
@@ -663,7 +672,7 @@ export default function Dashboard() {
                   value={searchQuery}
                   onChange={e => setSearchQuery(e.target.value)}
                   placeholder="Search manufacturer or device..." 
-                  className="bg-slate-50 border border-slate-200/60 rounded-xl pl-9 pr-4 py-1.5 text-xs text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/10 placeholder-slate-400"
+                  className="bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10/60 rounded-xl pl-9 pr-4 py-1.5 text-xs text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/10 placeholder-slate-400"
                 />
               </div>
               <div className="flex items-center gap-1.5">
@@ -671,7 +680,7 @@ export default function Dashboard() {
                 <select 
                   value={filterClass} 
                   onChange={e => setFilterClass(e.target.value)}
-                  className="bg-slate-50 border border-slate-200/60 rounded-xl px-2.5 py-1.5 text-xs text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
+                  className="bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10/60 rounded-xl px-2.5 py-1.5 text-xs text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
                 >
                   <option value="All">All Classes</option>
                   <option value="Class I">Class I (Critical)</option>
@@ -685,7 +694,7 @@ export default function Dashboard() {
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs border-collapse">
               <thead>
-                <tr className="border-b border-slate-100 text-slate-400 font-bold uppercase tracking-wider text-[10px]">
+                <tr className="border-b border-slate-100 dark:border-white/5 text-slate-400 font-bold uppercase tracking-wider text-[10px]">
                   <th className="py-3 px-4">Recall ID</th>
                   <th className="py-3 px-4">Firm</th>
                   <th className="py-3 px-4">Category</th>
@@ -694,11 +703,11 @@ export default function Dashboard() {
                   <th className="py-3 px-4">Date</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100 text-slate-600 font-medium">
+              <tbody className="divide-y divide-slate-100 dark:divide-white/5 text-slate-600 dark:text-slate-300 font-medium">
                 {filteredRecalls.slice(0, 15).map((r, idx) => (
                   <tr key={idx} className="hover:bg-slate-50/50 transition-colors">
                     <td className="py-3 px-4 font-mono text-blue-600 font-semibold">{r.recall_id}</td>
-                    <td className="py-3 px-4 font-semibold text-slate-800">{r.firm_name}</td>
+                    <td className="py-3 px-4 font-semibold text-slate-800 dark:text-white">{r.firm_name}</td>
                     <td className="py-3 px-4">{r.product_type}</td>
                     <td className="py-3 px-4">
                       <span className={`px-2 py-0.5 rounded-lg text-[9px] font-bold ${
@@ -746,7 +755,7 @@ export default function Dashboard() {
     return (
       <div className="space-y-6">
         <div className="premium-card p-6">
-          <h3 className="text-sm font-bold text-slate-800 mb-2">WHO Global Health Observatory Comparison</h3>
+          <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-2">WHO Global Health Observatory Comparison</h3>
           <p className="text-xs text-slate-400 font-medium mb-6">
             Life Expectancy at Birth (years) vs. Current Health Expenditure as percentage of GDP (%) for target cohorts.
           </p>
@@ -781,18 +790,18 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Form Wizard panel */}
         <div className="premium-card p-6 lg:col-span-2 space-y-6">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-4">
-            <h3 className="text-sm font-bold text-slate-800">Diagnostic Parameter Risk Estimator</h3>
-            <div className="flex gap-1.5 p-1 bg-slate-100/60 border border-slate-200/40 rounded-xl">
+          <div className="flex items-center justify-between border-b border-slate-100 dark:border-white/5 pb-4">
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white">Diagnostic Parameter Risk Estimator</h3>
+            <div className="flex gap-1.5 p-1 bg-slate-100/60 border border-slate-200 dark:border-white/10/40 rounded-xl">
               <button 
                 onClick={() => { setDiseaseType('heart'); setPredictionResult(null); setPredictionStep(1); }}
-                className={`px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all ${diseaseType === 'heart' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-800'}`}
+                className={`px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all ${diseaseType === 'heart' ? 'bg-white dark:bg-[#0a1122] text-blue-600 shadow-sm' : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:text-white'}`}
               >
                 Heart Disease
               </button>
               <button 
                 onClick={() => { setDiseaseType('diabetes'); setPredictionResult(null); setPredictionStep(1); }}
-                className={`px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all ${diseaseType === 'diabetes' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-800'}`}
+                className={`px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all ${diseaseType === 'diabetes' ? 'bg-white dark:bg-[#0a1122] text-blue-600 shadow-sm' : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:text-white'}`}
               >
                 Diabetes
               </button>
@@ -812,7 +821,7 @@ export default function Dashboard() {
                     ? 'bg-blue-600 border-blue-600 text-white font-bold shadow-sm' 
                     : predictionStep > s.id 
                       ? 'bg-blue-50 border-blue-100 text-blue-600'
-                      : 'border-slate-200 text-slate-400'
+                      : 'border-slate-200 dark:border-white/10 text-slate-400'
                 }`}>
                   {predictionStep > s.id ? <CheckCircle2 className="h-3.5 w-3.5 text-blue-600" /> : s.id}
                 </div>
@@ -828,9 +837,9 @@ export default function Dashboard() {
               <div className="py-12 space-y-4 text-center">
                 <Brain className="h-10 w-10 text-blue-600 mx-auto animate-float" />
                 <div className="max-w-md mx-auto space-y-2">
-                  <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Initialize Inference Pipeline</h4>
+                  <h4 className="text-xs font-bold text-slate-800 dark:text-white uppercase tracking-wider">Initialize Inference Pipeline</h4>
                   <p className="text-[11px] text-slate-400 leading-relaxed font-medium">
-                    You have selected the <strong className="text-slate-700">{diseaseType === 'heart' ? 'Cardiovascular Disease' : 'Diabetes Endocrine'} Classifier</strong>. This pipeline queries scikit-learn random forests to evaluate outcomes.
+                    You have selected the <strong className="text-slate-700 dark:text-slate-200">{diseaseType === 'heart' ? 'Cardiovascular Disease' : 'Diabetes Endocrine'} Classifier</strong>. This pipeline queries scikit-learn random forests to evaluate outcomes.
                   </p>
                 </div>
                 <button 
@@ -853,14 +862,14 @@ export default function Dashboard() {
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Biological Sex</label>
-                      <select value={heartFeatures.sex} onChange={e => setHeartFeatures(prev => ({...prev, sex: parseInt(e.target.value)}))} className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
+                      <select value={heartFeatures.sex} onChange={e => setHeartFeatures(prev => ({...prev, sex: parseInt(e.target.value)}))} className="w-full bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10 text-slate-800 dark:text-white text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
                         <option value="1">Male</option>
                         <option value="0">Female</option>
                       </select>
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Chest Pain Type</label>
-                      <select value={heartFeatures.cp} onChange={e => setHeartFeatures(prev => ({...prev, cp: parseInt(e.target.value)}))} className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
+                      <select value={heartFeatures.cp} onChange={e => setHeartFeatures(prev => ({...prev, cp: parseInt(e.target.value)}))} className="w-full bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10 text-slate-800 dark:text-white text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
                         <option value="0">Typical Angina</option>
                         <option value="1">Atypical Angina</option>
                         <option value="2">Non-anginal Pain</option>
@@ -877,14 +886,14 @@ export default function Dashboard() {
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Fasting Blood Sugar &gt; 120 mg/dl</label>
-                      <select value={heartFeatures.fbs} onChange={e => setHeartFeatures(prev => ({...prev, fbs: parseInt(e.target.value)}))} className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
+                      <select value={heartFeatures.fbs} onChange={e => setHeartFeatures(prev => ({...prev, fbs: parseInt(e.target.value)}))} className="w-full bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10 text-slate-800 dark:text-white text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
                         <option value="0">No</option>
                         <option value="1">Yes</option>
                       </select>
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Resting ECG Results</label>
-                      <select value={heartFeatures.restecg} onChange={e => setHeartFeatures(prev => ({...prev, restecg: parseInt(e.target.value)}))} className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
+                      <select value={heartFeatures.restecg} onChange={e => setHeartFeatures(prev => ({...prev, restecg: parseInt(e.target.value)}))} className="w-full bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10 text-slate-800 dark:text-white text-xs rounded-xl p-2.5 focus:border-blue-500 focus:outline-none">
                         <option value="0">Normal</option>
                         <option value="1">ST-T Wave Abnormality</option>
                         <option value="2">Left Ventricular Hypertrophy</option>
@@ -916,11 +925,11 @@ export default function Dashboard() {
                   </div>
                 )}
 
-                <div className="flex gap-4 pt-4 border-t border-slate-100 mt-6">
+                <div className="flex gap-4 pt-4 border-t border-slate-100 dark:border-white/5 mt-6">
                   <button 
                     type="button" 
                     onClick={() => setPredictionStep(1)}
-                    className="flex-1 py-2.5 bg-white hover:bg-slate-50 text-slate-600 rounded-xl text-xs font-bold transition border border-slate-200"
+                    className="flex-1 py-2.5 bg-white dark:bg-[#0a1122] hover:bg-slate-50 dark:bg-[#030712] text-slate-600 dark:text-slate-300 rounded-xl text-xs font-bold transition border border-slate-200 dark:border-white/10"
                   >
                     Back
                   </button>
@@ -947,25 +956,25 @@ export default function Dashboard() {
               <div className="py-8 space-y-4 text-center">
                 <CheckCircle2 className="h-12 w-12 text-emerald-500 mx-auto" />
                 <div className="max-w-md mx-auto space-y-1.5">
-                  <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Inference Analysis Completed</h4>
+                  <h4 className="text-xs font-bold text-slate-800 dark:text-white uppercase tracking-wider">Inference Analysis Completed</h4>
                   <p className="text-[11px] text-slate-400 font-medium">
                     Outcome classifications calculated. Metrics updated in logs.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-50 border border-slate-100 rounded-xl max-w-sm mx-auto space-y-2.5 text-left shadow-inner">
+                <div className="p-4 bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl max-w-sm mx-auto space-y-2.5 text-left shadow-inner">
                   <div className="flex justify-between text-xs font-medium">
-                    <span className="text-slate-500">Classified Outcome:</span>
+                    <span className="text-slate-500 dark:text-slate-400">Classified Outcome:</span>
                     <span className="font-bold text-slate-850">{predictionResult.risk_level} Risk</span>
                   </div>
                   <div className="flex justify-between text-xs font-medium">
-                    <span className="text-slate-500">Probability score:</span>
+                    <span className="text-slate-500 dark:text-slate-400">Probability score:</span>
                     <span className="font-bold text-slate-850">{(predictionResult.risk_probability * 100).toFixed(1)}%</span>
                   </div>
                 </div>
                 <button 
                   type="button" 
                   onClick={() => setPredictionStep(2)}
-                  className="px-6 py-2 bg-white hover:bg-slate-50 border border-slate-200 text-slate-650 rounded-xl text-xs font-bold transition mt-4"
+                  className="px-6 py-2 bg-white dark:bg-[#0a1122] hover:bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10 text-slate-650 rounded-xl text-xs font-bold transition mt-4"
                 >
                   Configure New Test
                 </button>
@@ -977,7 +986,7 @@ export default function Dashboard() {
         {/* Prediction Output panel */}
         <div className="premium-card p-6 flex flex-col justify-between relative overflow-hidden shadow-sm">
           <div>
-            <h3 className="text-sm font-bold text-slate-800 border-b border-slate-100 pb-4 mb-4">Outcome Metrics</h3>
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white border-b border-slate-100 dark:border-white/5 pb-4 mb-4">Outcome Metrics</h3>
             
             {predictionResult ? (
               <div className="space-y-6">
@@ -995,11 +1004,11 @@ export default function Dashboard() {
                 </div>
 
                 <div className="space-y-2">
-                  <div className="flex justify-between text-xs font-bold text-slate-700">
+                  <div className="flex justify-between text-xs font-bold text-slate-700 dark:text-slate-200">
                     <span>Risk Probability</span>
                     <span>{(predictionResult.risk_probability * 100).toFixed(1)}%</span>
                   </div>
-                  <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+                  <div className="w-full h-2 bg-slate-100 dark:bg-white/5 rounded-full overflow-hidden">
                     <div 
                       className={`h-full rounded-full transition-all duration-500 ${
                         predictionResult.risk_level === 'High' 
@@ -1014,13 +1023,13 @@ export default function Dashboard() {
                 </div>
 
                 <div className="space-y-2 pt-2 text-xs font-medium text-slate-650">
-                  <div className="flex justify-between py-2 border-b border-slate-100">
+                  <div className="flex justify-between py-2 border-b border-slate-100 dark:border-white/5">
                     <span>Inference Confidence</span>
-                    <span className="text-slate-800 font-bold">{(predictionResult.confidence * 100).toFixed(1)}%</span>
+                    <span className="text-slate-800 dark:text-white font-bold">{(predictionResult.confidence * 100).toFixed(1)}%</span>
                   </div>
-                  <div className="flex justify-between py-2 border-b border-slate-100">
+                  <div className="flex justify-between py-2 border-b border-slate-100 dark:border-white/5">
                     <span>Model Framework</span>
-                    <span className="text-slate-800 font-bold">RandomForest (sklearn)</span>
+                    <span className="text-slate-800 dark:text-white font-bold">RandomForest (sklearn)</span>
                   </div>
                 </div>
               </div>
@@ -1047,9 +1056,9 @@ export default function Dashboard() {
     return (
       <div className="space-y-6">
         <div className="premium-card p-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4 mb-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 dark:border-white/5 pb-4 mb-6">
             <div>
-              <h3 className="text-sm font-bold text-slate-800">Clinical Operations Report Generator</h3>
+              <h3 className="text-sm font-bold text-slate-800 dark:text-white">Clinical Operations Report Generator</h3>
               <p className="text-xs text-slate-400 font-medium mt-0.5">Generate, audit, and print reports based on warehouse telemetry and inference classifications.</p>
             </div>
             <button 
@@ -1064,33 +1073,33 @@ export default function Dashboard() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+            <div className="p-4 bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Warehouse Recalls</span>
-              <p className="text-2xl font-bold text-slate-800">{stats.recallsCount}</p>
+              <p className="text-2xl font-bold text-slate-800 dark:text-white">{stats.recallsCount}</p>
               <span className="text-[10px] text-emerald-500 font-bold">100% Ingested</span>
             </div>
-            <div className="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+            <div className="p-4 bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">WHO Health Datasets</span>
-              <p className="text-2xl font-bold text-slate-800">{stats.indicatorsCount.toLocaleString()}</p>
+              <p className="text-2xl font-bold text-slate-800 dark:text-white">{stats.indicatorsCount.toLocaleString()}</p>
               <span className="text-[10px] text-emerald-500 font-bold">Sync Completed</span>
             </div>
-            <div className="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+            <div className="p-4 bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Inference Pipelines</span>
-              <p className="text-2xl font-bold text-slate-800">{stats.modelsCount}</p>
+              <p className="text-2xl font-bold text-slate-800 dark:text-white">{stats.modelsCount}</p>
               <span className="text-[10px] text-blue-500 font-bold">Random Forest Classifiers</span>
             </div>
           </div>
 
           <div className="mt-8 space-y-4">
-            <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Operations Checklist</h4>
-            <div className="space-y-3 font-semibold text-xs text-slate-700">
+            <h4 className="text-xs font-bold text-slate-800 dark:text-white uppercase tracking-wider">Operations Checklist</h4>
+            <div className="space-y-3 font-semibold text-xs text-slate-700 dark:text-slate-200">
               {[
                 { label: "FDA Live Recalls DB Synchronization", status: "Active", color: "text-emerald-500" },
                 { label: "WHO Health Indicator API Endpoint", status: "Operational", color: "text-emerald-500" },
                 { label: "Random Forest Estimator Heart Classifier", status: "Active (sklearn 1.2+)", color: "text-emerald-500" },
                 { label: "Random Forest Estimator Diabetes Classifier", status: "Active (sklearn 1.2+)", color: "text-emerald-500" }
               ].map((c, idx) => (
-                <div key={idx} className="flex items-center justify-between p-3.5 bg-slate-50/50 border border-slate-100 rounded-xl">
+                <div key={idx} className="flex items-center justify-between p-3.5 bg-slate-50/50 border border-slate-100 dark:border-white/5 rounded-xl">
                   <span>{c.label}</span>
                   <span className={`${c.color} font-bold text-[10px] uppercase`}>{c.status}</span>
                 </div>
@@ -1107,12 +1116,12 @@ export default function Dashboard() {
     return (
       <div className="space-y-6">
         <div className="premium-card p-6 max-w-2xl">
-          <h3 className="text-sm font-bold text-slate-800 border-b border-slate-100 pb-4 mb-6">Platform Settings</h3>
+          <h3 className="text-sm font-bold text-slate-800 dark:text-white border-b border-slate-100 dark:border-white/5 pb-4 mb-6">Platform Settings</h3>
           
           <div className="space-y-5">
             {/* Gemini API Key */}
             <div className="space-y-1.5">
-              <label className="text-xs font-bold text-slate-700 block">Gemini API Key</label>
+              <label className="text-xs font-bold text-slate-700 dark:text-slate-200 block">Gemini API Key</label>
               <div className="flex gap-3">
                 <input 
                   type="password" 
@@ -1125,7 +1134,7 @@ export default function Dashboard() {
                   href="https://aistudio.google.com/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="px-4 py-2 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-xs font-bold text-blue-600 flex items-center justify-center shrink-0 transition-colors"
+                  className="px-4 py-2 bg-slate-50 dark:bg-[#030712] hover:bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-xs font-bold text-blue-600 flex items-center justify-center shrink-0 transition-colors"
                 >
                   Get Free Key
                 </a>
@@ -1135,7 +1144,7 @@ export default function Dashboard() {
 
             {/* Backend Server Endpoint */}
             <div className="space-y-1.5">
-              <label className="text-xs font-bold text-slate-700 block">Backend API Host URL</label>
+              <label className="text-xs font-bold text-slate-700 dark:text-slate-200 block">Backend API Host URL</label>
               <input 
                 type="text" 
                 value={backendUrl}
@@ -1147,16 +1156,16 @@ export default function Dashboard() {
             </div>
 
             {/* System Status */}
-            <div className="pt-4 border-t border-slate-100 space-y-3">
+            <div className="pt-4 border-t border-slate-100 dark:border-white/5 space-y-3">
               <h4 className="text-xs font-bold text-slate-850 uppercase tracking-wider">System Metadata</h4>
-              <div className="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-500">
-                <div className="p-3 bg-slate-50 rounded-xl">
+              <div className="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-500 dark:text-slate-400">
+                <div className="p-3 bg-slate-50 dark:bg-[#030712] rounded-xl">
                   <p className="text-[10px] text-slate-450 uppercase font-bold">Platform Version</p>
-                  <p className="text-slate-800 font-bold mt-0.5">2.1.0 (Enterprise)</p>
+                  <p className="text-slate-800 dark:text-white font-bold mt-0.5">2.1.0 (Enterprise)</p>
                 </div>
-                <div className="p-3 bg-slate-50 rounded-xl">
+                <div className="p-3 bg-slate-50 dark:bg-[#030712] rounded-xl">
                   <p className="text-[10px] text-slate-450 uppercase font-bold">Host Environment</p>
-                  <p className="text-slate-800 font-bold mt-0.5">Next.js 14 Dev Server</p>
+                  <p className="text-slate-800 dark:text-white font-bold mt-0.5">Next.js 14 Dev Server</p>
                 </div>
               </div>
             </div>
@@ -1173,7 +1182,7 @@ export default function Dashboard() {
       const parts = text.split(/\*\*(.*?)\*\*/g);
       return parts.map((part, i) => {
         if (i % 2 === 1) {
-          return <strong key={i} className="font-extrabold text-slate-900 bg-slate-100 px-1 py-0.5 rounded">{part}</strong>;
+          return <strong key={i} className="font-extrabold text-slate-900 dark:text-white bg-slate-100 dark:bg-white/5 px-1 py-0.5 rounded">{part}</strong>;
         }
         return part;
       });
@@ -1202,7 +1211,7 @@ export default function Dashboard() {
           inList = true;
           const content = trimmed.replace(/^[-*]\s*/, '');
           listItems.push(
-            <li key={`li-${idx}`} className="my-0.5 text-slate-600">
+            <li key={`li-${idx}`} className="my-0.5 text-slate-600 dark:text-slate-300">
               {parseBold(content)}
             </li>
           );
@@ -1245,7 +1254,7 @@ export default function Dashboard() {
           className={`h-12 px-4 rounded-full flex items-center justify-center gap-2 shadow-2xl transition-all duration-300 font-bold text-xs hover:scale-105 ${
             assistantOpen 
               ? 'bg-slate-800 text-white' 
-              : 'bg-white text-slate-800 border border-slate-150 hover:bg-slate-50'
+              : 'bg-white dark:bg-[#0a1122] text-slate-800 dark:text-white border border-slate-150 hover:bg-slate-50 dark:bg-[#030712]'
           }`}
         >
           <Sparkles className="h-4.5 w-4.5 text-blue-500 animate-pulse" />
@@ -1256,14 +1265,14 @@ export default function Dashboard() {
         {assistantOpen && (
           <div className="assistant-panel w-96 h-[500px] flex flex-col justify-between">
             {/* Header */}
-            <div className="px-5 py-4 bg-slate-50/80 border-b border-slate-100/50 flex items-center justify-between">
+            <div className="px-5 py-4 bg-slate-50/80 border-b border-slate-100 dark:border-white/5/50 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Brain className="h-4.5 w-4.5 text-blue-600" />
-                <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">Ask Cortex Intel</span>
+                <span className="text-xs font-bold text-slate-800 dark:text-white uppercase tracking-wider">Ask Cortex Intel</span>
               </div>
               <button 
                 onClick={() => setAssistantOpen(false)} 
-                className="p-1 hover:bg-slate-200/50 rounded-lg text-slate-400 hover:text-slate-600 transition-colors"
+                className="p-1 hover:bg-slate-200/50 rounded-lg text-slate-400 hover:text-slate-600 dark:text-slate-300 transition-colors"
               >
                 <X className="h-4 w-4" />
               </button>
@@ -1284,17 +1293,17 @@ export default function Dashboard() {
                     </div>
 
                     {msg.data && msg.data.length > 0 && (
-                      <div className="mt-3 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden shadow-inner max-w-full">
+                      <div className="mt-3 bg-slate-50 dark:bg-[#030712] border border-slate-100 dark:border-white/5 rounded-xl overflow-hidden shadow-inner max-w-full">
                         <div className="overflow-x-auto">
                           <table className="w-full text-left text-[9px] border-collapse">
                             <thead>
-                              <tr className="text-slate-400 font-bold border-b border-slate-100 bg-slate-50/50 uppercase tracking-wider">
+                              <tr className="text-slate-400 font-bold border-b border-slate-100 dark:border-white/5 bg-slate-50/50 uppercase tracking-wider">
                                 {Object.keys(msg.data[0]).slice(0, 3).map((key, i) => (
                                   <th key={i} className="py-2 px-3 font-semibold">{key.replace(/_/g, ' ')}</th>
                                 ))}
                               </tr>
                             </thead>
-                            <tbody className="divide-y divide-slate-100 text-slate-600 font-semibold">
+                            <tbody className="divide-y divide-slate-100 dark:divide-white/5 text-slate-600 dark:text-slate-300 font-semibold">
                               {msg.data.slice(0, 4).map((row: any, rIdx: number) => (
                                   <tr key={rIdx} className="hover:bg-white/50 transition-colors">
                                     {Object.values(row).slice(0, 3).map((val: any, cIdx: number) => (
@@ -1313,7 +1322,7 @@ export default function Dashboard() {
                       <div className="flex justify-end mt-2">
                         <button 
                           onClick={() => handleCopyMessage(msg.text, idx)}
-                          className="p-1 hover:bg-slate-50 hover:text-slate-650 rounded-lg text-slate-400 transition-colors flex items-center gap-1"
+                          className="p-1 hover:bg-slate-50 dark:bg-[#030712] hover:text-slate-650 rounded-lg text-slate-400 transition-colors flex items-center gap-1"
                           title="Copy response"
                         >
                           {copiedIdx === idx ? (
@@ -1343,7 +1352,7 @@ export default function Dashboard() {
             </div>
 
             {/* suggestion chips for chat */}
-            <div className="px-5 py-2.5 bg-slate-50/50 border-t border-slate-100/50 flex gap-2 overflow-x-auto scrollbar-none shrink-0 font-bold text-[9px] text-slate-500">
+            <div className="px-5 py-2.5 bg-slate-50/50 border-t border-slate-100 dark:border-white/5/50 flex gap-2 overflow-x-auto scrollbar-none shrink-0 font-bold text-[9px] text-slate-500 dark:text-slate-400">
               {[
                 { label: "Active Recalls", q: "What are the latest Class I device recalls?" },
                 { label: "Expenditures", q: "Compare health expenditures in countries" },
@@ -1352,7 +1361,7 @@ export default function Dashboard() {
                 <button 
                   key={i} 
                   onClick={() => handleSuggestionClick(chip.q)}
-                  className="px-2.5 py-1 bg-white border border-slate-150 hover:bg-slate-100 hover:text-slate-800 rounded-lg transition-colors shrink-0 shadow-sm"
+                  className="px-2.5 py-1 bg-white dark:bg-[#0a1122] border border-slate-150 hover:bg-slate-100 dark:bg-white/5 hover:text-slate-800 dark:text-white rounded-lg transition-colors shrink-0 shadow-sm"
                 >
                   {chip.label}
                 </button>
@@ -1360,13 +1369,13 @@ export default function Dashboard() {
             </div>
 
             {/* Input Form */}
-            <form onSubmit={handleAskAI} className="px-5 py-4 border-t border-slate-100/50 flex items-center gap-2 bg-white shrink-0">
+            <form onSubmit={handleAskAI} className="px-5 py-4 border-t border-slate-100 dark:border-white/5/50 flex items-center gap-2 bg-white dark:bg-[#0a1122] shrink-0">
               <input 
                 type="text" 
                 value={chatInput}
                 onChange={e => setChatInput(e.target.value)}
                 placeholder="Type your query here..." 
-                className="flex-1 bg-slate-50 border border-slate-150 rounded-xl px-3.5 py-2.5 text-xs text-slate-850 focus:outline-none focus:ring-2 focus:ring-blue-500/20 placeholder-slate-400 font-medium"
+                className="flex-1 bg-slate-50 dark:bg-[#030712] border border-slate-150 rounded-xl px-3.5 py-2.5 text-xs text-slate-850 focus:outline-none focus:ring-2 focus:ring-blue-500/20 placeholder-slate-400 font-medium"
               />
               <button 
                 type="submit" 
@@ -1374,7 +1383,7 @@ export default function Dashboard() {
                 className={`p-2.5 rounded-xl transition-all shadow ${
                   chatInput.trim() 
                     ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-                    : 'bg-slate-100 text-slate-400 cursor-not-allowed shadow-none'
+                    : 'bg-slate-100 dark:bg-white/5 text-slate-400 cursor-not-allowed shadow-none'
                 }`}
               >
                 <Send className="h-3.5 w-3.5" />
@@ -1399,7 +1408,7 @@ export default function Dashboard() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-[#f4f6f8] space-y-4">
         <Activity className="h-10 w-10 text-blue-600 animate-spin" />
-        <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest animate-pulse">Initializing Platform Warehouse...</p>
+        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-widest animate-pulse">Initializing Platform Warehouse...</p>
       </div>
     );
   }
@@ -1413,19 +1422,19 @@ export default function Dashboard() {
   });
 
   return (
-    <div className="min-h-screen flex premium-bg text-slate-800">
+    <div className="min-h-screen flex premium-bg text-slate-800 dark:text-white">
       
       {/* Navigation Sidebar */}
       <aside className={`premium-sidebar w-64 flex flex-col shrink-0 transition-all duration-300 ${
         sidebarOpen ? 'block' : 'hidden'
       }`}>
         {/* Cortex Intel logo block */}
-        <div className="flex items-center gap-2.5 px-6 py-6 border-b border-slate-200/30 shrink-0">
+        <div className="flex items-center gap-2.5 px-6 py-6 border-b border-slate-200 dark:border-white/10/30 shrink-0">
           <div className="p-2 bg-blue-50 border border-blue-100 rounded-xl shadow-sm">
             <Activity className="h-5 w-5 text-blue-600 animate-pulse" />
           </div>
           <div>
-            <h1 className="text-sm font-black text-slate-800 tracking-tight leading-none">
+            <h1 className="text-sm font-black text-slate-800 dark:text-white tracking-tight leading-none">
               Cortex Intel
             </h1>
             <span className="text-[10px] text-slate-400 font-bold tracking-wider uppercase">
@@ -1446,7 +1455,7 @@ export default function Dashboard() {
               className={`w-full flex items-center gap-3 px-4 py-3.5 rounded-xl text-[11px] font-bold tracking-wide transition-all ${
                 activeTab === tab.id 
                   ? 'bg-slate-200/60 text-slate-850 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)]' 
-                  : 'text-slate-500 hover:text-slate-800 hover:bg-slate-100'
+                  : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:text-white hover:bg-slate-100 dark:bg-white/5'
               }`}
             >
               <tab.icon className="h-4.5 w-4.5" />
@@ -1454,18 +1463,39 @@ export default function Dashboard() {
             </button>
           ))}
         </nav>
+          {/* Dark Mode Glassmorphism Switch */}
+          <div className="px-4 py-4 mt-auto border-t border-slate-200 dark:border-white/10">
+            <button
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              className="relative w-full flex items-center justify-between px-4 py-3 rounded-2xl bg-white/50 dark:bg-white/5 backdrop-blur-md border border-slate-200 dark:border-white/10 overflow-hidden transition-all duration-500 hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] group"
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/5 group-hover:to-cyan-500/5 transition-all duration-500" />
+              <div className="relative z-10 flex items-center gap-3">
+                <div className={`p-1.5 rounded-lg transition-colors duration-500 ${isDarkMode ? 'bg-blue-500/20 text-blue-400' : 'bg-amber-100 text-amber-500'}`}>
+                  {isDarkMode ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+                </div>
+                <span className="text-sm font-bold text-slate-700 dark:text-slate-300">
+                  {isDarkMode ? 'Dark Mode' : 'Light Mode'}
+                </span>
+              </div>
+              <div className={`relative w-10 h-5 rounded-full transition-colors duration-500 ${isDarkMode ? 'bg-blue-500/40' : 'bg-slate-300'}`}>
+                <div className={`absolute top-1 left-1 w-3 h-3 rounded-full bg-white dark:bg-[#0a1122] transition-transform duration-500 ${isDarkMode ? 'translate-x-5' : 'translate-x-0'}`} />
+              </div>
+            </button>
+          </div>
+  
       </aside>
 
       {/* Main Content Pane */}
       <div className="flex-1 flex flex-col min-w-0 overflow-y-auto">
         
         {/* Mockup Header block */}
-        <header className="px-8 py-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200/20 bg-white shrink-0">
+        <header className="px-8 py-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 dark:border-white/10/20 bg-white dark:bg-[#0a1122] shrink-0">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <button 
                 onClick={() => setSidebarOpen(!sidebarOpen)}
-                className="p-1 hover:bg-slate-100 rounded-lg text-slate-400 hover:text-slate-650 transition-colors md:hidden"
+                className="p-1 hover:bg-slate-100 dark:bg-white/5 rounded-lg text-slate-400 hover:text-slate-650 transition-colors md:hidden"
               >
                 <Menu className="h-5 w-5" />
               </button>
@@ -1473,7 +1503,7 @@ export default function Dashboard() {
                 Cortex Intel Healthcare Intelligence | {formattedDate}
               </p>
             </div>
-            <h2 className="text-xl font-bold text-slate-800">
+            <h2 className="text-xl font-bold text-slate-800 dark:text-white">
               Cortex Intel
             </h2>
           </div>
@@ -1485,12 +1515,12 @@ export default function Dashboard() {
               <input 
                 type="text" 
                 placeholder="Search" 
-                className="w-full bg-slate-50 border border-slate-200/60 rounded-xl pl-9 pr-4 py-2.5 text-xs text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 placeholder-slate-400 font-medium"
+                className="w-full bg-slate-50 dark:bg-[#030712] border border-slate-200 dark:border-white/10/60 rounded-xl pl-9 pr-4 py-2.5 text-xs text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 placeholder-slate-400 font-medium"
               />
             </div>
             {/* User Profile Avatar with Initials */}
-            <div className="flex items-center gap-3 pl-4 border-l border-slate-100">
-              <div className="w-8 h-8 rounded-full bg-slate-100 border border-slate-250/60 flex items-center justify-center text-xs font-bold text-slate-650 shrink-0">
+            <div className="flex items-center gap-3 pl-4 border-l border-slate-100 dark:border-white/5">
+              <div className="w-8 h-8 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-250/60 flex items-center justify-center text-xs font-bold text-slate-650 shrink-0">
                 CI
               </div>
             </div>
@@ -1508,7 +1538,7 @@ export default function Dashboard() {
         </main>
 
         {/* Live Terminal Activity Logger Footer */}
-        <footer className="px-8 py-4 bg-white border-t border-slate-100 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shrink-0">
+        <footer className="px-8 py-4 bg-white dark:bg-[#0a1122] border-t border-slate-100 dark:border-white/5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shrink-0">
           <div className="flex items-center gap-2 text-xs text-blue-600 font-bold">
             <Terminal className="h-4 w-4 animate-pulse" /> Live Activity Log
           </div>

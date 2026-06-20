@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-50/50 text-gray-900 antialiased;
+    @apply bg-slate-50/50 text-gray-900 antialiased dark:bg-[#030712] dark:text-slate-200;
   }
 
   /* Custom Professional Scrollbar */
@@ -16,7 +16,7 @@
     @apply bg-transparent;
   }
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors duration-200;
+    @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors duration-200 dark:bg-white/10 dark:hover:bg-white/20;
   }
 }
 
@@ -26,11 +26,11 @@
 }
 
 .premium-card {
-  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.02),0_1px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] hover:scale-[1.005];
+  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.02),0_1px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] hover:scale-[1.005] dark:bg-[#0a1122] dark:border-white/10 dark:hover:border-blue-500/30 dark:shadow-[0_0_20px_rgba(0,0,0,0.5)];
 }
 
 .premium-sidebar {
-  @apply bg-[#f4f6f8] border-r border-slate-100 h-full;
+  @apply bg-[#f4f6f8] border-r border-slate-100 h-full dark:bg-[#050b14] dark:border-white/5;
 }
 
 .premium-nav-item {
@@ -38,11 +38,11 @@
 }
 
 .premium-nav-item-active {
-  @apply bg-slate-200/60 text-slate-800 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)];
+  @apply bg-slate-200/60 text-slate-800 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)] dark:bg-blue-500/10 dark:text-blue-400 dark:shadow-[inset_0_1px_2px_rgba(255,255,255,0.02)];
 }
 
 .premium-nav-item-inactive {
-  @apply text-slate-500 hover:bg-slate-100 hover:text-slate-800;
+  @apply text-slate-500 hover:bg-slate-100 hover:text-slate-800 dark:text-slate-400 dark:hover:bg-white/5 dark:hover:text-white;
 }
 
 .premium-btn-primary {
@@ -50,24 +50,24 @@
 }
 
 .premium-btn-secondary {
-  @apply inline-flex items-center justify-center px-4 py-2 border border-slate-200 shadow-sm text-xs font-bold rounded-xl text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200;
+  @apply inline-flex items-center justify-center px-4 py-2 border border-slate-200 shadow-sm text-xs font-bold rounded-xl text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 dark:bg-white/5 dark:border-white/10 dark:text-slate-300 dark:hover:bg-white/10;
 }
 
 .premium-input {
-  @apply block w-full bg-white border border-slate-200 rounded-xl shadow-sm py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 sm:text-xs transition-all duration-200;
+  @apply block w-full bg-white border border-slate-200 rounded-xl shadow-sm py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 sm:text-xs transition-all duration-200 dark:bg-[#0a1122] dark:border-white/10 dark:text-white dark:focus:ring-blue-500/40;
 }
 
 /* Active Floating Assistant */
 .assistant-panel {
-  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.12)] overflow-hidden transition-all duration-300;
+  @apply bg-white border border-slate-100 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.12)] overflow-hidden transition-all duration-300 dark:bg-[#0a1122] dark:border-blue-500/20 dark:shadow-[0_20px_50px_rgba(0,0,0,0.5)];
 }
 
 .assistant-user-msg {
-  @apply bg-slate-50 border border-slate-100 text-slate-800 rounded-2xl rounded-tr-none px-4 py-3 text-xs max-w-[85%] shadow-sm leading-relaxed;
+  @apply bg-slate-50 border border-slate-100 text-slate-800 rounded-2xl rounded-tr-none px-4 py-3 text-xs max-w-[85%] shadow-sm leading-relaxed dark:bg-white/5 dark:border-white/10 dark:text-slate-200;
 }
 
 .assistant-ai-msg {
-  @apply bg-white border border-slate-100 text-slate-800 rounded-2xl rounded-tl-none px-4 py-3 text-xs leading-relaxed shadow-sm max-w-[85%];
+  @apply bg-white border border-slate-100 text-slate-800 rounded-2xl rounded-tl-none px-4 py-3 text-xs leading-relaxed shadow-sm max-w-[85%] dark:bg-blue-500/10 dark:border-blue-500/20 dark:text-blue-100;
 }
 
 /* Float Animation */
