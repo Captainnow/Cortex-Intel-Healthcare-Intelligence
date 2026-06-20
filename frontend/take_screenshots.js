@@ -6,15 +6,14 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
   
-  console.log('Navigating to localhost:3000...');
+  console.log('Navigating to Landing Page...');
   await page.goto('http://localhost:3000', { waitUntil: 'networkidle0', timeout: 60000 });
+  await page.screenshot({ path: '../assets/landing-page.png' });
   
-  console.log('Taking screenshot of dashboard...');
+  console.log('Navigating to Dashboard...');
+  await page.goto('http://localhost:3000/dashboard', { waitUntil: 'networkidle0', timeout: 60000 });
   await page.screenshot({ path: '../assets/new-dashboard.png' });
 
-  // Let's also take one for FDA alerts if we can click the tab.
-  // We can just rely on the main dashboard for now since it was redesigned.
-  
-  console.log('Screenshots saved.');
+  console.log('Screenshots saved to assets folder.');
   await browser.close();
 })();
