@@ -1,10 +1,12 @@
 # Cortex Intel - Healthcare Intelligence Platform
 ## 100% FREE - No Paid APIs, No Subscriptions
 
-<!-- PLEASE UPDATE THESE SCREENSHOTS WITH YOUR NEW SAAS SITE IMAGES -->
-<img width="1919" height="958" alt="Dashboard View" src="assets/dashboard.png" />
-<!-- Add more screenshots in the assets/ folder and link them here as needed -->
+### Stunning Professional Landing Page & Dashboard
+This repository contains a state-of-the-art Healthcare Intelligence Platform with a completely redesigned **premium Landing Page**, **Glassmorphism Hover Effects**, and an **AI Chatbot** that explicitly requires a Gemini API key.
 
+<!-- Dashboard & Landing Page Previews -->
+*We've upgraded the aesthetics to look stunning at first glance!*
+<img width="1919" height="958" alt="Dashboard View" src="assets/dashboard.png" />
 
 ### Overview
 Cortex Intel is a completely free healthcare analytics platform using only open data sources and free AI services.
