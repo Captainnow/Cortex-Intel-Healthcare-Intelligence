@@ -1,14 +1,9 @@
 # Cortex Intel - Healthcare Intelligence Platform
 ## 100% FREE - No Paid APIs, No Subscriptions
 
-<img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/33e55881-27de-4af4-b546-cee85f0be63b" />
-<img width="1910" height="944" alt="image" src="https://github.com/user-attachments/assets/7c2a0d89-1880-4ed0-bddc-09129739a340" />
-<img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/d8d73c25-9e3b-4c99-a587-aff78d19f644" />
-<img width="1912" height="939" alt="image" src="https://github.com/user-attachments/assets/c4c642d8-83ad-479c-9f84-c131b360f62a" />
-
-
-
-
+<!-- PLEASE UPDATE THESE SCREENSHOTS WITH YOUR NEW SAAS SITE IMAGES -->
+<img width="1919" height="958" alt="Dashboard View" src="assets/dashboard.png" />
+<!-- Add more screenshots in the assets/ folder and link them here as needed -->
 
 
 ### Overview
@@ -46,6 +41,13 @@ npm install
 npm run dev
 ```
 
+### 🚀 Deploying to Vercel
+You can deploy the frontend of Cortex Intel easily to Vercel:
+1. Connect your GitHub repository to Vercel.
+2. When importing the project, set the **Root Directory** to `frontend`.
+3. Set the Environment Variable `NEXT_PUBLIC_API_URL` to point to your live backend URL (e.g., deployed on Render, Heroku, or AWS).
+4. Click Deploy! 
+
 ### Access
 - Frontend: http://localhost:3000
 - API Docs: http://localhost:8000/docs
@@ -58,3 +60,4 @@ npm run dev
 - ✅ **Cortex Intelligence Copilot** for natural language insights
 - ✅ Pristine, professional **Light Mode SaaS** dashboard design
 - ✅ 100% free with open data sources
+
