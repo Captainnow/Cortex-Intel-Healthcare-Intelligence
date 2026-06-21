@@ -3,6 +3,7 @@
 
 ### Stunning Professional Landing Page & Dashboard
 This repository contains a state-of-the-art Healthcare Intelligence Platform with a completely redesigned **premium Landing Page**, **Glassmorphism Hover Effects**, and an **AI Chatbot** that explicitly requires a Gemini API key.
+https://cortex-intel-healthcare-intelligenc.vercel.app/
 
 <!-- Dashboard & Landing Page Previews -->
 *We've upgraded the aesthetics to look stunning at first glance!*
@@ -42,13 +43,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
-### 🚀 Deploying to Vercel
-You can deploy the frontend of Cortex Intel easily to Vercel:
-1. Connect your GitHub repository to Vercel.
-2. When importing the project, set the **Root Directory** to `frontend`.
-3. Set the Environment Variable `NEXT_PUBLIC_API_URL` to point to your live backend URL (e.g., deployed on Render, Heroku, or AWS).
-4. Click Deploy! 
 
 ### Access
 - Frontend: http://localhost:3000
