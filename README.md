@@ -2,8 +2,9 @@
 ## 100% FREE - No Paid APIs, No Subscriptions
 
 ### Stunning Professional Landing Page & Dashboard
-This repository contains a state-of-the-art Healthcare Intelligence Platform with a completely redesigned **premium Landing Page**, **Glassmorphism Hover Effects**, and an **AI Chatbot** that explicitly requires a Gemini API key.
-https://cortex-intel-healthcare-intelligenc.vercel.app/
+This repository contains a state-of-the-art Healthcare Intelligence Platform with a completely redesigned **premium Landing Page**, **Glassmorphism Hover Effects**, and an **AI Chatbot** that explicitly requires a Gemini API key
+,Access through the link https://cortex-intel-healthcare-intelligenc.vercel.app/,Note:- the frontend is connected to the versal the data is plugged only when the local system is running the backed to avoid memory threshold limit in the versal.
+
 
 <!-- Dashboard & Landing Page Previews -->
 *We've upgraded the aesthetics to look stunning at first glance!*
